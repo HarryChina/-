@@ -1,0 +1,85 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_R8C_OUTCOME_PROTOCOL_FROZEN",
+  "created": "2026-09-04T17:02:52.653093+08:00",
+  "variables": {
+    "CANCEL3": "frozen cancellation gate",
+    "READY3": "all unchanged burned24 readiness gates PASS",
+    "H3m": "H3 burned full median",
+    "H2m": 0.06661221680459492,
+    "H3g": "H3 burned gain max",
+    "H2g": 0.14848258760888638
+  },
+  "ordered_steps": [
+    {
+      "step": 1,
+      "if": "CANCEL3=true",
+      "case": "D",
+      "stop": true
+    },
+    {
+      "step": 2,
+      "if": "CANCEL3=false AND READY3=true",
+      "case": "A",
+      "stop": true
+    },
+    {
+      "step": 3,
+      "if": "CANCEL3=false AND READY3=false AND H3m<H2m",
+      "case": "B",
+      "stop": true
+    },
+    {
+      "step": 4,
+      "if": "CANCEL3=false AND READY3=false AND H3m>=H2m AND H3g<H2g",
+      "case": "C",
+      "stop": true
+    },
+    {
+      "step": 5,
+      "if": "otherwise",
+      "case": "E",
+      "stop": true
+    }
+  ],
+  "cases": {
+    "D": {
+      "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_VARIANT_REINTRODUCES_CANCELLATION",
+      "recommended_next": "P6_PHASEA8MRN2R8CI_IMPLEMENTATION_AND_OBJECTIVE_REASSESSMENT"
+    },
+    "A": {
+      "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_DEVELOPMENT_PASS",
+      "recommended_next": "P6_PHASEA8MRN3_DIRECT_IMPLICIT_COMPLEX_PSF_FIELD_FREEZE_AND_FRESH30_PREREGISTRATION"
+    },
+    "B": {
+      "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_IMPROVES_H2_BUT_NOT_READY",
+      "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION"
+    },
+    "C": {
+      "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_FEATURES_IMPROVE_GAIN_WITHOUT_FULL_MEDIAN_GAIN",
+      "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION"
+    },
+    "E": {
+      "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_NO_CONTROLLED_IMPROVEMENT",
+      "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION"
+    }
+  },
+  "strict_comparisons": {
+    "H3m_equals_H2m_is_full_improvement": false,
+    "H3g_equals_H2g_is_gain_improvement": false,
+    "epsilon": null,
+    "percentage_threshold": null,
+    "p_value_gate": null
+  },
+  "readiness_thresholds": {
+    "full_median_max": 0.06,
+    "full_max_max": 0.1,
+    "energy_median_max": 0.04,
+    "energy_max_max": 0.06,
+    "boundary_median_max": 0.1,
+    "boundary_max_max": 0.16,
+    "peak_max": 1.0,
+    "center_gain_max": 0.02
+  },
+  "truth_table_gate": "PASS",
+  "gate": "PASS"
+}

@@ -1,0 +1,104 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_H3_FEATURE_SUPPORT_COVERAGE_PASS",
+  "created": "2026-09-04T17:02:52.378727+08:00",
+  "basis": "unique-coordinate support statistics from frozen coordinate metadata; not occurrence-frequency-weighted full-stream statistics",
+  "future_H3_sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+  "sample_stream_inherited_unchanged_from_R7": true,
+  "TRAIN_anchor_source_branch": {
+    "role": "A branch SECOND=r after C4; frozen TRAIN140 C4-closed source support",
+    "unique_coordinate_count": 140,
+    "C4_closure": "PASS",
+    "feature_statistics": {
+      "px": {
+        "min": 0.19463087248322153,
+        "max": 1.0,
+        "mean": 0.5858101629913711,
+        "std_population_ddof0": 0.3190509980562695
+      },
+      "py": {
+        "min": 0.19463087248322153,
+        "max": 1.0,
+        "mean": 0.5858101629913711,
+        "std_population_ddof0": 0.3190509980562695
+      },
+      "pz": {
+        "min": 0.008403361344537785,
+        "max": 1.0,
+        "mean": 0.6,
+        "std_population_ddof0": 0.37194154470246865
+      },
+      "pxy": {
+        "min": 0.037881176523580036,
+        "max": 1.0,
+        "mean": 0.315243200113251,
+        "std_population_ddof0": 0.24836963630747036
+      },
+      "pxz": {
+        "min": 0.0016355535502791667,
+        "max": 1.0,
+        "mean": 0.3498811605178984,
+        "std_population_ddof0": 0.3188969726283083
+      },
+      "pyz": {
+        "min": 0.0016355535502791667,
+        "max": 1.0,
+        "mean": 0.3498811605178984,
+        "std_population_ddof0": 0.31889697262830824
+      }
+    }
+  },
+  "reciprocal_arbitrary_source_like_branch": {
+    "role": "R branch SECOND=u after C4",
+    "unique_coordinate_count": 2699864,
+    "native_domain_count": 2700000,
+    "excluded_C4_closed_blacklist_count": 136,
+    "coverage_fraction": 0.9999496296296296,
+    "unique_x_levels": 150,
+    "unique_y_levels": 150,
+    "unique_z_levels": 120,
+    "feature_statistics": {
+      "px": {
+        "min": 0.006711409395973145,
+        "max": 1.0,
+        "mean": 0.503350046943454,
+        "std_population_ddof0": 0.29058360369793196
+      },
+      "py": {
+        "min": 0.006711409395973145,
+        "max": 1.0,
+        "mean": 0.5033500469434429,
+        "std_population_ddof0": 0.2905836036979505
+      },
+      "pz": {
+        "min": 0.008403361344537785,
+        "max": 1.0,
+        "mean": 0.5041942355415848,
+        "std_population_ddof0": 0.2910565472515231
+      },
+      "pxy": {
+        "min": 4.504301608035661e-05,
+        "max": 1.0,
+        "mean": 0.25335869113365056,
+        "std_population_ddof0": 0.22341509480781085
+      },
+      "pxz": {
+        "min": 5.639839828548841e-05,
+        "max": 1.0,
+        "mean": 0.25378519466176674,
+        "std_population_ddof0": 0.22378768130751114
+      },
+      "pyz": {
+        "min": 5.639839828548841e-05,
+        "max": 1.0,
+        "mean": 0.253785194661767,
+        "std_population_ddof0": 0.2237876813075107
+      }
+    },
+    "covers_full_nonblacklisted_native_coordinate_domain": true,
+    "covers_continuous_normalized_native_axis_ranges": true
+  },
+  "full_sample_stream_saved": false,
+  "target_values_read": false,
+  "new_PSF_read": false,
+  "gate": "PASS"
+}

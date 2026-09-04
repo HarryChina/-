@@ -1,0 +1,153 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_H3_MODEL_SPEC_FROZEN",
+  "created": "2026-09-04T17:02:52.653093+08:00",
+  "candidate_count": 1,
+  "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+  "base": "H2_ANISOTROPIC_Z_SOURCE_MASK_XY_K0_2_Z_K0_1",
+  "single_science_change_from_H2": "replace six always-zero SOURCE-LIKE absolute k=3 slots with deterministic px,py,pz,pxy,pxz,pyz source-boundary geometry features",
+  "source_x": {
+    "raw": true,
+    "retained_Fourier_k": [
+      0,
+      1,
+      2
+    ],
+    "k3_role": "boundary auxiliary",
+    "fixed_zero_k": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "source_y": {
+    "raw": true,
+    "retained_Fourier_k": [
+      0,
+      1,
+      2
+    ],
+    "k3_role": "boundary auxiliary",
+    "fixed_zero_k": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "source_z": {
+    "raw": true,
+    "retained_Fourier_k": [
+      0,
+      1
+    ],
+    "fixed_zero_k": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "k3_role": "boundary auxiliary"
+  },
+  "output_absolute": {
+    "raw": true,
+    "retained_Fourier_k": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "boundary_features_added": false
+  },
+  "relative_displacement": {
+    "raw": true,
+    "retained_Fourier_k": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "changed": false
+  },
+  "input_dimension": 165,
+  "parameter_count": 414210,
+  "MLP_unchanged": true,
+  "input_channels_appended": false,
+  "gain_loss_added": false,
+  "boundary_loss_added": false,
+  "model_seed": 20260909,
+  "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "warm_start": false,
+  "H2_source": {
+    "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R6_anisotropic_z_source_model.py",
+    "SHA256": "1dd370573b6c81db0c0bef6d30aa4921cea57195a4cbf241b42f3623375acf7e",
+    "modified": false
+  },
+  "H3_source": {
+    "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+    "SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2"
+  },
+  "unit_tests": {
+    "classification": "P6_PHASEA8MRN2R8B_H3_UNIT_TESTS_PASS",
+    "created": "2026-09-04T17:02:51.467920+08:00",
+    "random_pairs": 4096,
+    "params_414210": true,
+    "input_165": true,
+    "px_py_pz_definitions_exact": true,
+    "pxy_pxz_pyz_definitions_exact": true,
+    "boundary_auxiliary_global_indices": [
+      60,
+      76,
+      92,
+      68,
+      84,
+      100
+    ],
+    "source_z_k2_zero": true,
+    "source_k4_to_k7_zero": true,
+    "output_k0_to_k7_unchanged": true,
+    "relative_k0_to_k9_unchanged": true,
+    "raw_coordinates_unchanged": true,
+    "A_branch_second_equals_r": true,
+    "R_branch_second_equals_u": true,
+    "detach_used": false,
+    "parameter_gradients_finite": true,
+    "coordinate_gradients_finite": true,
+    "coordinate_gradients_nonzero": true,
+    "Hermitian_max_normalized_discrepancy": 0.0,
+    "Hermitian_threshold_max": 1e-06,
+    "gate": "PASS"
+  },
+  "dummy_resource": {
+    "classification": "P6_PHASEA8MRN2R8B_H3_DUMMY_RESOURCE_FEASIBILITY_PASS",
+    "created": "2026-09-04T17:02:52.609082+08:00",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "batch_pairs": 32768,
+    "dtype_policy": "FP16 autocast forward; FP32 dual loss/backward",
+    "parameter_count": 414210,
+    "dummy_dual_loss": 2.0239224433898926,
+    "loss_finite": true,
+    "gradients_finite": true,
+    "seconds_per_update": 0.13575560000026599,
+    "estimated_20000_update_hours_no_validation_or_IO": 0.7541977777792555,
+    "peak_allocated_VRAM_GiB": 0.45255422592163086,
+    "peak_reserved_VRAM_GiB": 0.544921875,
+    "peak_reserved_limit_GiB": 7.5,
+    "science_optimizer_constructed": false,
+    "optimizer_step_executed": false,
+    "science_training": false,
+    "gate": "PASS"
+  },
+  "gate": "PASS"
+}

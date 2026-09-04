@@ -1,0 +1,16 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_H2_DISABLED_FEATURE_EQUIVALENCE_PASS",
+  "created": "2026-09-04T17:02:51.467920+08:00",
+  "random_coordinate_pairs": 4096,
+  "boundary_features_enabled": false,
+  "encoded_tensor_bitwise_equal_to_H2": true,
+  "forward_tensor_bitwise_equal_to_H2": true,
+  "max_normalized_forward_discrepancy": 0.0,
+  "threshold_max": 1e-07,
+  "H2_parameter_count": 414210,
+  "H3_parameter_count": 414210,
+  "H2_input_dimension": 165,
+  "H3_input_dimension": 165,
+  "state_dict_keys_identical": true,
+  "gate": "PASS"
+}

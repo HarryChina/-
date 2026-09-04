@@ -1,0 +1,26 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_SCIENTIFIC_RATIONALE_FROZEN",
+  "created": "2026-09-04T17:02:52.653093+08:00",
+  "R8_freeze": "PASS",
+  "targeted_z_NO_GO_preserved": true,
+  "H2_current_state": "NEAR_GATE_MEDIAN_WITH_RESIDUAL_OUTLIERS",
+  "boundary_corner_evidence": {
+    "present": true,
+    "corner_over_interior_full_median_ratio": 1.6111800140958756
+  },
+  "gain_evidence": {
+    "gain_max": 0.14848258760888638,
+    "associated_with_full_and_boundary": true,
+    "not_explained_only_by_boundary": true
+  },
+  "H3_unique_candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+  "why_boundary_first": "R8 directly links remaining full outliers to source boundary/corner geometry, so H3 tests only that source-representation mechanism.",
+  "GAIN_LOSS_NOT_ACTIVATED_IN_H3": true,
+  "why_no_gain_loss_in_H3": "Adding boundary features and diagonal/gain loss together would make any H2-to-H3 change mechanistically unidentifiable.",
+  "future_gain_route": "Only if H3 remains not READY may a separate R8D preregistration use TRAIN140-only diagonal/gain consistency.",
+  "VAL_TEST_burned_used_to_define_future_gain_prior": false,
+  "second_candidate": false,
+  "feature_sweep": false,
+  "boundary_specific_retraining_subset": false,
+  "gate": "PASS"
+}

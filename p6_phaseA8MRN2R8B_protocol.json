@@ -1,0 +1,496 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_PROTOCOL_FROZEN",
+  "created": "2026-09-04T17:02:52.653093+08:00",
+  "stage": "POST_R8_BOUNDARY_CORNER_AND_CENTER_GAIN_RESIDUAL_MECHANISM_PREREGISTRATION_ONLY",
+  "R8_required_classification": "P6_PHASEA8MRN2R8_TARGETED_Z_SOURCE_SUPPORT_NOT_JUSTIFIED_AFTER_H2_RESIDUAL_AUDIT",
+  "R8_required_outcome": "NO_GO",
+  "candidate": {
+    "classification": "P6_PHASEA8MRN2R8B_H3_MODEL_SPEC_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "candidate_count": 1,
+    "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "base": "H2_ANISOTROPIC_Z_SOURCE_MASK_XY_K0_2_Z_K0_1",
+    "single_science_change_from_H2": "replace six always-zero SOURCE-LIKE absolute k=3 slots with deterministic px,py,pz,pxy,pxz,pyz source-boundary geometry features",
+    "source_x": {
+      "raw": true,
+      "retained_Fourier_k": [
+        0,
+        1,
+        2
+      ],
+      "k3_role": "boundary auxiliary",
+      "fixed_zero_k": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "source_y": {
+      "raw": true,
+      "retained_Fourier_k": [
+        0,
+        1,
+        2
+      ],
+      "k3_role": "boundary auxiliary",
+      "fixed_zero_k": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "source_z": {
+      "raw": true,
+      "retained_Fourier_k": [
+        0,
+        1
+      ],
+      "fixed_zero_k": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "k3_role": "boundary auxiliary"
+    },
+    "output_absolute": {
+      "raw": true,
+      "retained_Fourier_k": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "boundary_features_added": false
+    },
+    "relative_displacement": {
+      "raw": true,
+      "retained_Fourier_k": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "changed": false
+    },
+    "input_dimension": 165,
+    "parameter_count": 414210,
+    "MLP_unchanged": true,
+    "input_channels_appended": false,
+    "gain_loss_added": false,
+    "boundary_loss_added": false,
+    "model_seed": 20260909,
+    "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+    "warm_start": false,
+    "H2_source": {
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R6_anisotropic_z_source_model.py",
+      "SHA256": "1dd370573b6c81db0c0bef6d30aa4921cea57195a4cbf241b42f3623375acf7e",
+      "modified": false
+    },
+    "H3_source": {
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+      "SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2"
+    },
+    "unit_tests": {
+      "classification": "P6_PHASEA8MRN2R8B_H3_UNIT_TESTS_PASS",
+      "created": "2026-09-04T17:02:51.467920+08:00",
+      "random_pairs": 4096,
+      "params_414210": true,
+      "input_165": true,
+      "px_py_pz_definitions_exact": true,
+      "pxy_pxz_pyz_definitions_exact": true,
+      "boundary_auxiliary_global_indices": [
+        60,
+        76,
+        92,
+        68,
+        84,
+        100
+      ],
+      "source_z_k2_zero": true,
+      "source_k4_to_k7_zero": true,
+      "output_k0_to_k7_unchanged": true,
+      "relative_k0_to_k9_unchanged": true,
+      "raw_coordinates_unchanged": true,
+      "A_branch_second_equals_r": true,
+      "R_branch_second_equals_u": true,
+      "detach_used": false,
+      "parameter_gradients_finite": true,
+      "coordinate_gradients_finite": true,
+      "coordinate_gradients_nonzero": true,
+      "Hermitian_max_normalized_discrepancy": 0.0,
+      "Hermitian_threshold_max": 1e-06,
+      "gate": "PASS"
+    },
+    "dummy_resource": {
+      "classification": "P6_PHASEA8MRN2R8B_H3_DUMMY_RESOURCE_FEASIBILITY_PASS",
+      "created": "2026-09-04T17:02:52.609082+08:00",
+      "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "batch_pairs": 32768,
+      "dtype_policy": "FP16 autocast forward; FP32 dual loss/backward",
+      "parameter_count": 414210,
+      "dummy_dual_loss": 2.0239224433898926,
+      "loss_finite": true,
+      "gradients_finite": true,
+      "seconds_per_update": 0.13575560000026599,
+      "estimated_20000_update_hours_no_validation_or_IO": 0.7541977777792555,
+      "peak_allocated_VRAM_GiB": 0.45255422592163086,
+      "peak_reserved_VRAM_GiB": 0.544921875,
+      "peak_reserved_limit_GiB": 7.5,
+      "science_optimizer_constructed": false,
+      "optimizer_step_executed": false,
+      "science_training": false,
+      "gate": "PASS"
+    },
+    "gate": "PASS"
+  },
+  "boundary_features": {
+    "classification": "P6_PHASEA8MRN2R8B_BOUNDARY_FEATURE_SPEC_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "role_rule": "SECOND_ABSOLUTE_COORDINATE=SOURCE-LIKE",
+    "normalized_source": "sx,sy,sz in [-1,1]",
+    "definitions": {
+      "px": "abs(sx)",
+      "py": "abs(sy)",
+      "pz": "abs(sz)",
+      "pxy": "px*py",
+      "pxz": "px*pz",
+      "pyz": "py*pz"
+    },
+    "feature_vector_order": [
+      "px",
+      "py",
+      "pz",
+      "pxy",
+      "pxz",
+      "pyz"
+    ],
+    "feature_count": 6,
+    "semantic_slot_order": [
+      "source-x sin k3",
+      "source-y sin k3",
+      "source-z sin k3",
+      "source-x cos k3",
+      "source-y cos k3",
+      "source-z cos k3"
+    ],
+    "actual_global_tensor_indices": [
+      60,
+      76,
+      92,
+      68,
+      84,
+      100
+    ],
+    "slot_mapping": [
+      {
+        "slot": 0,
+        "feature": "px",
+        "global_tensor_index": 60
+      },
+      {
+        "slot": 1,
+        "feature": "py",
+        "global_tensor_index": 76
+      },
+      {
+        "slot": 2,
+        "feature": "pz",
+        "global_tensor_index": 92
+      },
+      {
+        "slot": 3,
+        "feature": "pxy",
+        "global_tensor_index": 68
+      },
+      {
+        "slot": 4,
+        "feature": "pxz",
+        "global_tensor_index": 84
+      },
+      {
+        "slot": 5,
+        "feature": "pyz",
+        "global_tensor_index": 100
+      }
+    ],
+    "slots_no_longer_mean_Fourier_k3_when_enabled": true,
+    "artificial_distance_threshold": null,
+    "exponential_scale": null,
+    "learnable_scale": null,
+    "boundary_class_label_used": false,
+    "burned_stratum_label_used": false,
+    "target_values_used": false,
+    "feature_parameter_count": 0,
+    "feature_buffer_count": 0,
+    "boundary_features_enabled_false_means_all_six_slots_zero": true,
+    "gate": "PASS"
+  },
+  "scientific_rationale": {
+    "classification": "P6_PHASEA8MRN2R8B_SCIENTIFIC_RATIONALE_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "R8_freeze": "PASS",
+    "targeted_z_NO_GO_preserved": true,
+    "H2_current_state": "NEAR_GATE_MEDIAN_WITH_RESIDUAL_OUTLIERS",
+    "boundary_corner_evidence": {
+      "present": true,
+      "corner_over_interior_full_median_ratio": 1.6111800140958756
+    },
+    "gain_evidence": {
+      "gain_max": 0.14848258760888638,
+      "associated_with_full_and_boundary": true,
+      "not_explained_only_by_boundary": true
+    },
+    "H3_unique_candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "why_boundary_first": "R8 directly links remaining full outliers to source boundary/corner geometry, so H3 tests only that source-representation mechanism.",
+    "GAIN_LOSS_NOT_ACTIVATED_IN_H3": true,
+    "why_no_gain_loss_in_H3": "Adding boundary features and diagonal/gain loss together would make any H2-to-H3 change mechanistically unidentifiable.",
+    "future_gain_route": "Only if H3 remains not READY may a separate R8D preregistration use TRAIN140-only diagonal/gain consistency.",
+    "VAL_TEST_burned_used_to_define_future_gain_prior": false,
+    "second_candidate": false,
+    "feature_sweep": false,
+    "boundary_specific_retraining_subset": false,
+    "gate": "PASS"
+  },
+  "training_inheritance": {
+    "classification": "P6_PHASEA8MRN2R8B_R8C_TRAINING_INHERITANCE_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "split": {
+      "counts": {
+        "TRAIN": 140,
+        "VAL": 20,
+        "INTERNAL_TEST": 20
+      },
+      "SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+      "C4_role_closure": true
+    },
+    "blacklist": {
+      "unique": 136,
+      "SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+      "C4_closure": true,
+      "reciprocal_isolation": true
+    },
+    "sampler": {
+      "sources_per_update": 4,
+      "queries_per_source": 8192,
+      "pairs_per_update": 32768,
+      "shell_fractions": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "center_mandatory": true,
+      "model_seed": 20260909,
+      "sampler_seed": 20260916,
+      "C4_seed": 20260913,
+      "required_sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2"
+    },
+    "dual_orientation": {
+      "A": "ordered_base(u,r,d)",
+      "R": "ordered_base(r,u,-d)",
+      "B": "conj(R)",
+      "target": "y=G(u,r)/g_ref",
+      "loss": "0.5*MSE_complex(A,y)+0.5*MSE_complex(B,y)",
+      "final_inference": "0.5*(A+B)",
+      "Hermitian_by_construction": true,
+      "new_loss_terms": []
+    },
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.0002,
+      "betas": [
+        0.9,
+        0.99
+      ],
+      "weight_decay": 1e-06,
+      "scheduler": null
+    },
+    "budget": {
+      "optimizer_updates": 20000,
+      "VAL_every": 500,
+      "checkpoint_every": 500,
+      "early_stopping": false
+    },
+    "cancellation_gate": {
+      "CANCEL3_true_iff_all": {
+        "final_INTERNAL_median_max": 0.08,
+        "raw_mean_over_final_min": 1.5,
+        "error_cosine_median_max": -0.25
+      },
+      "thresholds_unchanged": true
+    },
+    "INTERNAL_TEST_after_best_freeze": {
+      "sources": 20,
+      "metrics": [
+        "full",
+        "energy",
+        "boundary",
+        "gain",
+        "peak",
+        "rawA",
+        "rawB",
+        "disagreement",
+        "error cosine",
+        "cancellation ratio"
+      ],
+      "same_lattice_regression_check_required": true
+    },
+    "burned24_after_INTERNAL_and_cancellation": {
+      "role": "DEVELOPMENT_DIAGNOSTIC_ONLY",
+      "metrics": [
+        "full",
+        "energy",
+        "boundary",
+        "gain",
+        "peak",
+        "six strata",
+        "raw branches"
+      ]
+    },
+    "all_fields_except_H3_source_boundary_slots_unchanged_from_H2": true,
+    "science_optimizer_constructed_in_R8B": false,
+    "science_optimizer_updates_in_R8B": 0,
+    "gate": "PASS"
+  },
+  "candidate_selection": {
+    "classification": "P6_PHASEA8MRN2R8B_R8C_CANDIDATE_SELECTION_PROTOCOL_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "candidate_count": 1,
+    "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "VAL_sources": 20,
+    "probes_per_source": 65536,
+    "total_VAL_probes": 1310720,
+    "VAL_coordinate_SHA256": "718c4152461367368be80e02408c18667da09b18dc5550327337ccc06c8fb24b",
+    "primary": "lowest pooled final-sym complex NRMSE",
+    "secondary": "lowest max-column final-sym complex NRMSE",
+    "tie_rule": "if primary and secondary differences are <=1e-6, choose earlier update",
+    "burned_used_for_selection": false,
+    "gain_used_for_selection": false,
+    "raw_branch_used_for_selection": false,
+    "strata_used_for_selection": false,
+    "best_checkpoint_frozen_before_INTERNAL_TEST": true,
+    "gate": "PASS"
+  },
+  "R8C_outcome": {
+    "classification": "P6_PHASEA8MRN2R8B_R8C_OUTCOME_PROTOCOL_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "variables": {
+      "CANCEL3": "frozen cancellation gate",
+      "READY3": "all unchanged burned24 readiness gates PASS",
+      "H3m": "H3 burned full median",
+      "H2m": 0.06661221680459492,
+      "H3g": "H3 burned gain max",
+      "H2g": 0.14848258760888638
+    },
+    "ordered_steps": [
+      {
+        "step": 1,
+        "if": "CANCEL3=true",
+        "case": "D",
+        "stop": true
+      },
+      {
+        "step": 2,
+        "if": "CANCEL3=false AND READY3=true",
+        "case": "A",
+        "stop": true
+      },
+      {
+        "step": 3,
+        "if": "CANCEL3=false AND READY3=false AND H3m<H2m",
+        "case": "B",
+        "stop": true
+      },
+      {
+        "step": 4,
+        "if": "CANCEL3=false AND READY3=false AND H3m>=H2m AND H3g<H2g",
+        "case": "C",
+        "stop": true
+      },
+      {
+        "step": 5,
+        "if": "otherwise",
+        "case": "E",
+        "stop": true
+      }
+    ],
+    "cases": {
+      "D": {
+        "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_VARIANT_REINTRODUCES_CANCELLATION",
+        "recommended_next": "P6_PHASEA8MRN2R8CI_IMPLEMENTATION_AND_OBJECTIVE_REASSESSMENT"
+      },
+      "A": {
+        "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_DEVELOPMENT_PASS",
+        "recommended_next": "P6_PHASEA8MRN3_DIRECT_IMPLICIT_COMPLEX_PSF_FIELD_FREEZE_AND_FRESH30_PREREGISTRATION"
+      },
+      "B": {
+        "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_IMPROVES_H2_BUT_NOT_READY",
+        "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION"
+      },
+      "C": {
+        "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_FEATURES_IMPROVE_GAIN_WITHOUT_FULL_MEDIAN_GAIN",
+        "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION"
+      },
+      "E": {
+        "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_NO_CONTROLLED_IMPROVEMENT",
+        "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION"
+      }
+    },
+    "strict_comparisons": {
+      "H3m_equals_H2m_is_full_improvement": false,
+      "H3g_equals_H2g_is_gain_improvement": false,
+      "epsilon": null,
+      "percentage_threshold": null,
+      "p_value_gate": null
+    },
+    "readiness_thresholds": {
+      "full_median_max": 0.06,
+      "full_max_max": 0.1,
+      "energy_median_max": 0.04,
+      "energy_max_max": 0.06,
+      "boundary_median_max": 0.1,
+      "boundary_max_max": 0.16,
+      "peak_max": 1.0,
+      "center_gain_max": 0.02
+    },
+    "truth_table_gate": "PASS",
+    "gate": "PASS"
+  },
+  "science_isolation": {
+    "science_optimizer_constructed": false,
+    "science_optimizer_updates": 0,
+    "H3_training": false,
+    "checkpoint_inference": 0,
+    "checkpoint_loaded": false,
+    "new_exact_physics": 0,
+    "new_exact_PSF": 0,
+    "new_complete_PSF_columns": 0,
+    "fresh30_selected": 0,
+    "fresh30_accessed": 0,
+    "operator_cases": 0,
+    "Bunny": 0,
+    "NVR": 0,
+    "exact_F0": 0,
+    "PSF_arrays_opened": 0
+  },
+  "script_path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_preregister.py",
+  "script_SHA256": "3383f6e50ab1ffff3aed9b41bc568652af8384fcb585be0c188a10c5d16c2afb",
+  "H3_source_path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+  "H3_source_SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+  "gate": "PASS"
+}

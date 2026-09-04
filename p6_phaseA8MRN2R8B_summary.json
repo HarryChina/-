@@ -1,0 +1,333 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_BOUNDARY_AND_GAIN_RESIDUAL_MECHANISM_PREREGISTERED",
+  "completed": "2026-09-04T17:02:52.653093+08:00",
+  "R8_freeze": "PASS",
+  "targeted_z_NO_GO_preserved": true,
+  "targeted_z_support_activated": false,
+  "new_support_columns": 0,
+  "H2_best_VAL": {
+    "update": 20000,
+    "pooled": 0.05586241424195242,
+    "max_column": 0.07929271320508936
+  },
+  "H2_INTERNAL_full": {
+    "n": 20,
+    "median": 0.0634515886379785,
+    "max": 0.06958063332540772,
+    "min": 0.04449452572187326
+  },
+  "CANCEL2": false,
+  "H2_burned": {
+    "full_complex_NRMSE": {
+      "n": 24,
+      "median": 0.06661221680459492,
+      "max": 0.11284294662938457,
+      "min": 0.055675849625164996
+    },
+    "native_center_gain_relative_error": {
+      "n": 24,
+      "median": 0.04118274262184512,
+      "max": 0.14848258760888638,
+      "min": 0.0016862304824052092
+    },
+    "total_energy_relative_error": {
+      "n": 24,
+      "median": 0.03326439677655908,
+      "max": 0.08207767626306936,
+      "min": 0.00024357301183535224
+    },
+    "peak_location_error_voxels": {
+      "n": 24,
+      "median": 0.0,
+      "max": 0.0,
+      "min": 0.0
+    },
+    "boundary_region_complex_NRMSE": {
+      "n": 24,
+      "median": 0.06696237364173963,
+      "max": 0.11592803604241879,
+      "min": 0.05237356651240915
+    }
+  },
+  "H2_state": "NEAR_GATE_MEDIAN_WITH_RESIDUAL_OUTLIERS",
+  "boundary_mechanism": {
+    "full_correlations": {
+      "bx": {
+        "Pearson": -0.6198692888594395,
+        "Spearman": -0.6982152028923473
+      },
+      "by": {
+        "Pearson": -0.4551317551563054,
+        "Spearman": -0.46311235251952765
+      },
+      "bz": {
+        "Pearson": -0.3107430191225361,
+        "Spearman": -0.13574962888412942
+      },
+      "bmin": {
+        "Pearson": -0.39679367732223053,
+        "Spearman": -0.4296029923456235
+      }
+    },
+    "six_strata_full_medians": {
+      "interior": 0.05624652105042159,
+      "x_boundary_near": 0.06783030697105288,
+      "y_boundary_near": 0.06394041130351664,
+      "z_low": 0.07161032874583839,
+      "z_high": 0.06140126017782724,
+      "corner_or_mixed_boundary": 0.09062327057886223
+    },
+    "corner_over_interior_ratio": 1.6111800140958756,
+    "present": true
+  },
+  "gain_mechanism": {
+    "gain_max": 0.14848258760888638,
+    "associations": {
+      "full_complex_NRMSE": {
+        "Pearson": 0.6748163146004004,
+        "Spearman": 0.7521739130434782
+      },
+      "total_energy_relative_error": {
+        "Pearson": 0.1366649295783351,
+        "Spearman": 0.09826086956521737
+      },
+      "boundary_region_complex_NRMSE": {
+        "Pearson": 0.5989621742911055,
+        "Spearman": 0.617391304347826
+      }
+    },
+    "not_explained_only_by_boundary": true
+  },
+  "exact_diagonal_context": {
+    "burned24_normalized": {
+      "min": 0.9984232073725758,
+      "median": 1.0004385925573127,
+      "max": 1.0035453714918154,
+      "mean": 1.0005374435865129,
+      "std_population_ddof0": 0.0013321772019438969
+    },
+    "burned24_imag_max_abs": 0.0,
+    "anchor180_normalized": {
+      "min": 0.9979013282065966,
+      "median": 1.0000278124512199,
+      "max": 1.0039199727995733,
+      "mean": 1.0002540392309323,
+      "std_population_ddof0": 0.0012554824434736166
+    },
+    "H2_gain_max_over_burned_true_diagonal_max_deviation": 41.88068526857096
+  },
+  "TRAIN140_diagonal": {
+    "n": 140,
+    "min": 0.9979013282065966,
+    "median": 1.0,
+    "max": 1.0039199727995733,
+    "mean": 1.0003041404061261,
+    "std_population_ddof0": 0.001344764406703845,
+    "span_max_minus_min": 0.006018644592976741,
+    "max_abs_deviation_from_1": 0.003919972799573346
+  },
+  "GAIN_LOSS_NOT_ACTIVATED_IN_H3": true,
+  "candidate_count": 1,
+  "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+  "boundary_features": [
+    "px",
+    "py",
+    "pz",
+    "pxy",
+    "pxz",
+    "pyz"
+  ],
+  "boundary_auxiliary_global_indices": [
+    60,
+    76,
+    92,
+    68,
+    84,
+    100
+  ],
+  "input_dimension": 165,
+  "parameter_count": 414210,
+  "source_z_k2_zero": true,
+  "source_k4_to_k7_zero": true,
+  "output_k0_to_k7_unchanged": true,
+  "relative_k0_to_k9_unchanged": true,
+  "C4_feature_audit": {
+    "random_coordinates": 100000,
+    "max_error": 0.0,
+    "gate": "PASS"
+  },
+  "H2_disabled_feature_equivalence": {
+    "max_discrepancy": 0.0,
+    "gate": "PASS"
+  },
+  "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "dual_loss_and_Hermitian_unchanged": true,
+  "training_inheritance": {
+    "classification": "P6_PHASEA8MRN2R8B_R8C_TRAINING_INHERITANCE_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "split": {
+      "counts": {
+        "TRAIN": 140,
+        "VAL": 20,
+        "INTERNAL_TEST": 20
+      },
+      "SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+      "C4_role_closure": true
+    },
+    "blacklist": {
+      "unique": 136,
+      "SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+      "C4_closure": true,
+      "reciprocal_isolation": true
+    },
+    "sampler": {
+      "sources_per_update": 4,
+      "queries_per_source": 8192,
+      "pairs_per_update": 32768,
+      "shell_fractions": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "center_mandatory": true,
+      "model_seed": 20260909,
+      "sampler_seed": 20260916,
+      "C4_seed": 20260913,
+      "required_sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2"
+    },
+    "dual_orientation": {
+      "A": "ordered_base(u,r,d)",
+      "R": "ordered_base(r,u,-d)",
+      "B": "conj(R)",
+      "target": "y=G(u,r)/g_ref",
+      "loss": "0.5*MSE_complex(A,y)+0.5*MSE_complex(B,y)",
+      "final_inference": "0.5*(A+B)",
+      "Hermitian_by_construction": true,
+      "new_loss_terms": []
+    },
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.0002,
+      "betas": [
+        0.9,
+        0.99
+      ],
+      "weight_decay": 1e-06,
+      "scheduler": null
+    },
+    "budget": {
+      "optimizer_updates": 20000,
+      "VAL_every": 500,
+      "checkpoint_every": 500,
+      "early_stopping": false
+    },
+    "cancellation_gate": {
+      "CANCEL3_true_iff_all": {
+        "final_INTERNAL_median_max": 0.08,
+        "raw_mean_over_final_min": 1.5,
+        "error_cosine_median_max": -0.25
+      },
+      "thresholds_unchanged": true
+    },
+    "INTERNAL_TEST_after_best_freeze": {
+      "sources": 20,
+      "metrics": [
+        "full",
+        "energy",
+        "boundary",
+        "gain",
+        "peak",
+        "rawA",
+        "rawB",
+        "disagreement",
+        "error cosine",
+        "cancellation ratio"
+      ],
+      "same_lattice_regression_check_required": true
+    },
+    "burned24_after_INTERNAL_and_cancellation": {
+      "role": "DEVELOPMENT_DIAGNOSTIC_ONLY",
+      "metrics": [
+        "full",
+        "energy",
+        "boundary",
+        "gain",
+        "peak",
+        "six strata",
+        "raw branches"
+      ]
+    },
+    "all_fields_except_H3_source_boundary_slots_unchanged_from_H2": true,
+    "science_optimizer_constructed_in_R8B": false,
+    "science_optimizer_updates_in_R8B": 0,
+    "gate": "PASS"
+  },
+  "candidate_selection_summary": {
+    "classification": "P6_PHASEA8MRN2R8B_R8C_CANDIDATE_SELECTION_PROTOCOL_FROZEN",
+    "created": "2026-09-04T17:02:52.653093+08:00",
+    "candidate_count": 1,
+    "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "VAL_sources": 20,
+    "probes_per_source": 65536,
+    "total_VAL_probes": 1310720,
+    "VAL_coordinate_SHA256": "718c4152461367368be80e02408c18667da09b18dc5550327337ccc06c8fb24b",
+    "primary": "lowest pooled final-sym complex NRMSE",
+    "secondary": "lowest max-column final-sym complex NRMSE",
+    "tie_rule": "if primary and secondary differences are <=1e-6, choose earlier update",
+    "burned_used_for_selection": false,
+    "gain_used_for_selection": false,
+    "raw_branch_used_for_selection": false,
+    "strata_used_for_selection": false,
+    "best_checkpoint_frozen_before_INTERNAL_TEST": true,
+    "gate": "PASS"
+  },
+  "R8C_outcome_truth_table": {
+    "canonical": 20,
+    "random": 10000,
+    "unclassified": 0,
+    "multi_classified": 0,
+    "exactly_one": 10020
+  },
+  "dummy_resource": {
+    "classification": "P6_PHASEA8MRN2R8B_H3_DUMMY_RESOURCE_FEASIBILITY_PASS",
+    "created": "2026-09-04T17:02:52.609082+08:00",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "batch_pairs": 32768,
+    "dtype_policy": "FP16 autocast forward; FP32 dual loss/backward",
+    "parameter_count": 414210,
+    "dummy_dual_loss": 2.0239224433898926,
+    "loss_finite": true,
+    "gradients_finite": true,
+    "seconds_per_update": 0.13575560000026599,
+    "estimated_20000_update_hours_no_validation_or_IO": 0.7541977777792555,
+    "peak_allocated_VRAM_GiB": 0.45255422592163086,
+    "peak_reserved_VRAM_GiB": 0.544921875,
+    "peak_reserved_limit_GiB": 7.5,
+    "science_optimizer_constructed": false,
+    "optimizer_step_executed": false,
+    "science_training": false,
+    "gate": "PASS"
+  },
+  "science_optimizer_constructed": false,
+  "science_optimizer_updates": 0,
+  "H3_training": false,
+  "checkpoint_inference": 0,
+  "checkpoint_loaded": false,
+  "new_exact_physics": 0,
+  "new_exact_PSF": 0,
+  "new_complete_PSF_columns": 0,
+  "fresh30_selected": 0,
+  "fresh30_accessed": 0,
+  "operator_cases": 0,
+  "Bunny": 0,
+  "NVR": 0,
+  "exact_F0": 0,
+  "PSF_arrays_opened": 0,
+  "R8C_execution_ready": true,
+  "neural_field_development_ready": false,
+  "formal_fresh_validation_passed": false,
+  "recommended_next": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_DEVELOPMENT",
+  "gate": "PASS"
+}

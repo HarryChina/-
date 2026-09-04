@@ -1,0 +1,193 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_SUBMISSION_PACKAGE_PASS",
+  "created": "2026-09-04T17:02:52.841048+08:00",
+  "source_file_count": 18,
+  "manifest_file_count": 2,
+  "submission_total_files": 20,
+  "files": [
+    {
+      "original_path": "F:\\psf模糊核\\docs\\P6_PHASEA8MRN2R8B_BOUNDARY_AND_GAIN_RESIDUAL_MECHANISM_PREREGISTRATION.md",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\P6_PHASEA8MRN2R8B_BOUNDARY_AND_GAIN_RESIDUAL_MECHANISM_PREREGISTRATION.md",
+      "bytes": 7332,
+      "SHA256": "060cb35ddf86a11638d9bae40022d2b6d62ef659bd51b610d47f27fbccc7f6d9",
+      "source_SHA256": "060cb35ddf86a11638d9bae40022d2b6d62ef659bd51b610d47f27fbccc7f6d9",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_summary.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_summary.json",
+      "bytes": 10076,
+      "SHA256": "62e47474a077c7eee5d83a89189c7a4fdc8d8e38a19000a9777e7826401c2f74",
+      "source_SHA256": "62e47474a077c7eee5d83a89189c7a4fdc8d8e38a19000a9777e7826401c2f74",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_status.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_status.json",
+      "bytes": 1543,
+      "SHA256": "5545133a1ffeef32884ada7aa56f203dfed333ea1a540b275178f0698ab6c8ff",
+      "source_SHA256": "5545133a1ffeef32884ada7aa56f203dfed333ea1a540b275178f0698ab6c8ff",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_protocol.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_protocol.json",
+      "bytes": 15529,
+      "SHA256": "a686e3c4b65dd7d81af628829dd0b90a66ae0198260de0e57e8c8d2710937fc3",
+      "source_SHA256": "a686e3c4b65dd7d81af628829dd0b90a66ae0198260de0e57e8c8d2710937fc3",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_R8_freeze_manifest.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_R8_freeze_manifest.json",
+      "bytes": 6191,
+      "SHA256": "c3ab4f9283bc01140309f4df6baac7472c8302add5c574b18288a8c0e8c6bad5",
+      "source_SHA256": "c3ab4f9283bc01140309f4df6baac7472c8302add5c574b18288a8c0e8c6bad5",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_scientific_rationale.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_scientific_rationale.json",
+      "bytes": 1295,
+      "SHA256": "761e176e5ca07cb9e4c2b4baf398c9bebc997a4ccdb06d2dd348f7e05aff77a8",
+      "source_SHA256": "761e176e5ca07cb9e4c2b4baf398c9bebc997a4ccdb06d2dd348f7e05aff77a8",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_boundary_mechanism_evidence.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_boundary_mechanism_evidence.json",
+      "bytes": 2783,
+      "SHA256": "cba2da7102efb2f7a1d7093284579e3ce7e96266da727b5f4847547dd2e60a19",
+      "source_SHA256": "cba2da7102efb2f7a1d7093284579e3ce7e96266da727b5f4847547dd2e60a19",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_gain_mechanism_evidence.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_gain_mechanism_evidence.json",
+      "bytes": 2642,
+      "SHA256": "bf95e6259fab3a3e3936fda3d8a2eaf09eb9418a3fc6dd89d4fb675167a30841",
+      "source_SHA256": "bf95e6259fab3a3e3936fda3d8a2eaf09eb9418a3fc6dd89d4fb675167a30841",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_TRAIN140_diagonal_prior_audit.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_TRAIN140_diagonal_prior_audit.json",
+      "bytes": 2099,
+      "SHA256": "a181930d190bf4b5b70c4287aaa026e879f62018772de16f66c9db471aa70c41",
+      "source_SHA256": "a181930d190bf4b5b70c4287aaa026e879f62018772de16f66c9db471aa70c41",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_H3_model_spec.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_H3_model_spec.json",
+      "bytes": 4047,
+      "SHA256": "99e02c347fb6b10035bba96d555e5ee508810e4ce00efb0ec2cd70cd945c91ea",
+      "source_SHA256": "99e02c347fb6b10035bba96d555e5ee508810e4ce00efb0ec2cd70cd945c91ea",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_boundary_feature_spec.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_boundary_feature_spec.json",
+      "bytes": 1772,
+      "SHA256": "1c0e99bbacec5f090cba61813e4c163a84dad551820cd74aa10e963feb19b7f8",
+      "source_SHA256": "1c0e99bbacec5f090cba61813e4c163a84dad551820cd74aa10e963feb19b7f8",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_boundary_feature_C4_audit.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_boundary_feature_C4_audit.json",
+      "bytes": 643,
+      "SHA256": "3dd275a51c43c2f291abe93a716a53a98ca8efcae7c29e9d012dc0a24b89742d",
+      "source_SHA256": "3dd275a51c43c2f291abe93a716a53a98ca8efcae7c29e9d012dc0a24b89742d",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_H2_equivalence_audit.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_H2_equivalence_audit.json",
+      "bytes": 559,
+      "SHA256": "9d3f4bc04ee1d72b65218a6f15b3027ee8fca9acb3147fbae35a564ed36fc6a1",
+      "source_SHA256": "9d3f4bc04ee1d72b65218a6f15b3027ee8fca9acb3147fbae35a564ed36fc6a1",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_initialization_identity_audit.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_initialization_identity_audit.json",
+      "bytes": 883,
+      "SHA256": "af307547d6a042973d201a24b754664d7aa2f0684eb3a23bb859b85142649204",
+      "source_SHA256": "af307547d6a042973d201a24b754664d7aa2f0684eb3a23bb859b85142649204",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_feature_support_coverage_audit.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_feature_support_coverage_audit.json",
+      "bytes": 3365,
+      "SHA256": "1e4718075fc898be860ae4c97dfa5d7038cb5a272ccec46c20179fb655f2d962",
+      "source_SHA256": "1e4718075fc898be860ae4c97dfa5d7038cb5a272ccec46c20179fb655f2d962",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_training_inheritance_manifest.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_training_inheritance_manifest.json",
+      "bytes": 2630,
+      "SHA256": "4d1b5f94278b7aa59a290478acd291470e330ef3b9ff26e7e5f300b1e7af03ad",
+      "source_SHA256": "4d1b5f94278b7aa59a290478acd291470e330ef3b9ff26e7e5f300b1e7af03ad",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_R8C_outcome_protocol.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_R8C_outcome_protocol.json",
+      "bytes": 2679,
+      "SHA256": "42c30cca2371edb5ad28249f6bf07b63197139fd56cf80aee3363a14f49803cb",
+      "source_SHA256": "42c30cca2371edb5ad28249f6bf07b63197139fd56cf80aee3363a14f49803cb",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    },
+    {
+      "original_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_outcome_truth_table_audit.json",
+      "copied_path": "F:\\psf模糊核\\本轮提交\\p6_phaseA8MRN2R8B_outcome_truth_table_audit.json",
+      "bytes": 828,
+      "SHA256": "92ed6514c801bb26c3868dfab0dfb61cedd6c17af7884f4e8a5fb4a59038f84e",
+      "source_SHA256": "92ed6514c801bb26c3868dfab0dfb61cedd6c17af7884f4e8a5fb4a59038f84e",
+      "hash_match": true,
+      "required_or_optional": "required",
+      "purpose": "R8B formal boundary/gain mechanism and H3 preregistration evidence artifact"
+    }
+  ],
+  "all_hash_match": true,
+  "candidate_selection_protocol_retained_results_only": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_candidate_selection_protocol.json",
+  "forbidden_artifacts_included": false,
+  "gate": "PASS"
+}

@@ -1,0 +1,84 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_BOUNDARY_CORNER_MECHANISM_EVIDENCE_FROZEN",
+  "created": "2026-09-04T17:02:51.315140+08:00",
+  "source_artifacts": [
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8_H2_boundary_distance_residual_audit.json",
+      "SHA256": "ffb27168d9a2591e4442bdeded98979db038476a55dab83b665fe5136ed57b98"
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8_H2_strata_residual_audit.json",
+      "SHA256": "094babd9bfaf2f0dae1abecf238b61cf9cbf50a0e31f921384f728e508e181c3"
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8_H2_worst_case_geometry.json",
+      "SHA256": "e2741f227008d332d6d8eeae8c27a5e75932ce47a64f7ab6837d2a387ba4a4a6"
+    }
+  ],
+  "full_vs_boundary_distances": {
+    "bx": {
+      "Pearson": -0.6198692888594395,
+      "Spearman": -0.6982152028923473
+    },
+    "by": {
+      "Pearson": -0.4551317551563054,
+      "Spearman": -0.46311235251952765
+    },
+    "bz": {
+      "Pearson": -0.3107430191225361,
+      "Spearman": -0.13574962888412942
+    },
+    "bmin": {
+      "Pearson": -0.39679367732223053,
+      "Spearman": -0.4296029923456235
+    }
+  },
+  "six_strata_full_medians": {
+    "interior": 0.05624652105042159,
+    "x_boundary_near": 0.06783030697105288,
+    "y_boundary_near": 0.06394041130351664,
+    "z_low": 0.07161032874583839,
+    "z_high": 0.06140126017782724,
+    "corner_or_mixed_boundary": 0.09062327057886223
+  },
+  "corner_over_interior_full_median_ratio": 1.6111800140958756,
+  "full_worst": {
+    "name": "A8M_FRESH_CORNER_OR_MIXED_BOUNDARY_02",
+    "source_index_xyz": [
+      147,
+      1,
+      5
+    ],
+    "stratum": "corner_or_mixed_boundary",
+    "dx_nearest": 2,
+    "dy_nearest": 1,
+    "dz_nearest": 5,
+    "bx": 2,
+    "by": 1,
+    "bz": 5,
+    "bmin": 1,
+    "number_of_near_boundary_axes": 3,
+    "full_complex_NRMSE": 0.11284294662938457,
+    "native_center_gain_relative_error": 0.12241135004596271,
+    "total_energy_relative_error": 0.08207767626306936,
+    "boundary_region_complex_NRMSE": 0.11592803604241879
+  },
+  "other_top_corner_coordinates": [
+    [
+      145,
+      146,
+      114
+    ],
+    [
+      2,
+      1,
+      115
+    ]
+  ],
+  "BOUNDARY_CORNER_RESIDUAL_STRUCTURE_PRESENT": true,
+  "interpretation": "Remaining H2 full-error outliers show multi-face/corner structure, with full error increasing as source distance to x/y boundary decreases.",
+  "evidence_role": "DESCRIPTIVE_DEVELOPMENT_EVIDENCE_NOT_FORMAL_FRESH_GATE",
+  "new_significance_threshold": false,
+  "p_value_gate": null,
+  "gate": "PASS"
+}

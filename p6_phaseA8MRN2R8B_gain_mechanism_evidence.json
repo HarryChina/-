@@ -1,0 +1,77 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_GAIN_MECHANISM_EVIDENCE_FROZEN",
+  "created": "2026-09-04T17:02:51.316616+08:00",
+  "source_artifacts": [
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8_H2_gain_residual_audit.json",
+      "SHA256": "53d84db688a0505ca66054063e5328505252801464e8ed9480a95b5f1b6b767f"
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8_exact_diagonal_context.json",
+      "SHA256": "67f7c1314f8b400d8b934f2014dce2dc81504cf2b445d40cd4764987cea3433d"
+    }
+  ],
+  "gain_max": 0.14848258760888638,
+  "gain_readiness_threshold": 0.02,
+  "gain_associations": {
+    "full_complex_NRMSE": {
+      "Pearson": 0.6748163146004004,
+      "Spearman": 0.7521739130434782
+    },
+    "total_energy_relative_error": {
+      "Pearson": 0.1366649295783351,
+      "Spearman": 0.09826086956521737
+    },
+    "boundary_region_complex_NRMSE": {
+      "Pearson": 0.5989621742911055,
+      "Spearman": 0.617391304347826
+    }
+  },
+  "high_gain_interior_evidence": {
+    "name": "A8M_FRESH_INTERIOR_04",
+    "source_index_xyz": [
+      33,
+      82,
+      50
+    ],
+    "stratum": "interior",
+    "dx_nearest": 3,
+    "dy_nearest": 7,
+    "dz_nearest": 10,
+    "bx": 33,
+    "by": 67,
+    "bz": 50,
+    "bmin": 33,
+    "number_of_near_boundary_axes": 0,
+    "full_complex_NRMSE": 0.0629702244902948,
+    "native_center_gain_relative_error": 0.12675909968606117,
+    "total_energy_relative_error": 0.008690641187095435,
+    "boundary_region_complex_NRMSE": 0.05237356651240915
+  },
+  "GAIN_RESIDUAL_ASSOCIATED_WITH_FULL_AND_BOUNDARY_ERROR": true,
+  "GAIN_RESIDUAL_NOT_EXPLAINED_ONLY_BY_BOUNDARY": true,
+  "historical_exact_diagonal": {
+    "burned24_normalized": {
+      "min": 0.9984232073725758,
+      "median": 1.0004385925573127,
+      "max": 1.0035453714918154,
+      "mean": 1.0005374435865129,
+      "std_population_ddof0": 0.0013321772019438969
+    },
+    "burned24_imag_max_abs": 0.0,
+    "anchor180_normalized": {
+      "min": 0.9979013282065966,
+      "median": 1.0000278124512199,
+      "max": 1.0039199727995733,
+      "mean": 1.0002540392309323,
+      "std_population_ddof0": 0.0012554824434736166
+    },
+    "H2_gain_max_over_burned_true_diagonal_max_deviation": 41.88068526857096
+  },
+  "true_diagonal_variation_much_smaller_than_H2_gain_residual": true,
+  "center_hard_coded": false,
+  "prediction_renormalized": false,
+  "diagonal_or_gain_loss_added": false,
+  "gain_gate_artificially_passed": false,
+  "gate": "PASS"
+}

@@ -1,0 +1,26 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_BOUNDARY_FEATURE_C4_AUDIT_PASS",
+  "created": "2026-09-04T17:02:51.338901+08:00",
+  "random_native_source_coordinates": 100000,
+  "seed": 20260926,
+  "R90_convention": "normalized (x,y,z) -> (-y,x,z)",
+  "required_transform": {
+    "px_R90": "py",
+    "py_R90": "px",
+    "pz_R90": "pz",
+    "pxy_R90": "pxy",
+    "pxz_R90": "pyz",
+    "pyz_R90": "pxz"
+  },
+  "per_feature_max_absolute_error": {
+    "px": 0.0,
+    "py": 0.0,
+    "pz": 0.0,
+    "pxy": 0.0,
+    "pxz": 0.0,
+    "pyz": 0.0
+  },
+  "overall_max_absolute_error": 0.0,
+  "FP32_tolerance": 1e-06,
+  "gate": "PASS"
+}

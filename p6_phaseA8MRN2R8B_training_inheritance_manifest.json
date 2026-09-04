@@ -1,0 +1,102 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_R8C_TRAINING_INHERITANCE_FROZEN",
+  "created": "2026-09-04T17:02:52.653093+08:00",
+  "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+  "split": {
+    "counts": {
+      "TRAIN": 140,
+      "VAL": 20,
+      "INTERNAL_TEST": 20
+    },
+    "SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+    "C4_role_closure": true
+  },
+  "blacklist": {
+    "unique": 136,
+    "SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+    "C4_closure": true,
+    "reciprocal_isolation": true
+  },
+  "sampler": {
+    "sources_per_update": 4,
+    "queries_per_source": 8192,
+    "pairs_per_update": 32768,
+    "shell_fractions": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "center_mandatory": true,
+    "model_seed": 20260909,
+    "sampler_seed": 20260916,
+    "C4_seed": 20260913,
+    "required_sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2"
+  },
+  "dual_orientation": {
+    "A": "ordered_base(u,r,d)",
+    "R": "ordered_base(r,u,-d)",
+    "B": "conj(R)",
+    "target": "y=G(u,r)/g_ref",
+    "loss": "0.5*MSE_complex(A,y)+0.5*MSE_complex(B,y)",
+    "final_inference": "0.5*(A+B)",
+    "Hermitian_by_construction": true,
+    "new_loss_terms": []
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0002,
+    "betas": [
+      0.9,
+      0.99
+    ],
+    "weight_decay": 1e-06,
+    "scheduler": null
+  },
+  "budget": {
+    "optimizer_updates": 20000,
+    "VAL_every": 500,
+    "checkpoint_every": 500,
+    "early_stopping": false
+  },
+  "cancellation_gate": {
+    "CANCEL3_true_iff_all": {
+      "final_INTERNAL_median_max": 0.08,
+      "raw_mean_over_final_min": 1.5,
+      "error_cosine_median_max": -0.25
+    },
+    "thresholds_unchanged": true
+  },
+  "INTERNAL_TEST_after_best_freeze": {
+    "sources": 20,
+    "metrics": [
+      "full",
+      "energy",
+      "boundary",
+      "gain",
+      "peak",
+      "rawA",
+      "rawB",
+      "disagreement",
+      "error cosine",
+      "cancellation ratio"
+    ],
+    "same_lattice_regression_check_required": true
+  },
+  "burned24_after_INTERNAL_and_cancellation": {
+    "role": "DEVELOPMENT_DIAGNOSTIC_ONLY",
+    "metrics": [
+      "full",
+      "energy",
+      "boundary",
+      "gain",
+      "peak",
+      "six strata",
+      "raw branches"
+    ]
+  },
+  "all_fields_except_H3_source_boundary_slots_unchanged_from_H2": true,
+  "science_optimizer_constructed_in_R8B": false,
+  "science_optimizer_updates_in_R8B": 0,
+  "gate": "PASS"
+}

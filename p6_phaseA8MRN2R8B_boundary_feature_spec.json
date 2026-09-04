@@ -1,0 +1,82 @@
+{
+  "classification": "P6_PHASEA8MRN2R8B_BOUNDARY_FEATURE_SPEC_FROZEN",
+  "created": "2026-09-04T17:02:52.653093+08:00",
+  "role_rule": "SECOND_ABSOLUTE_COORDINATE=SOURCE-LIKE",
+  "normalized_source": "sx,sy,sz in [-1,1]",
+  "definitions": {
+    "px": "abs(sx)",
+    "py": "abs(sy)",
+    "pz": "abs(sz)",
+    "pxy": "px*py",
+    "pxz": "px*pz",
+    "pyz": "py*pz"
+  },
+  "feature_vector_order": [
+    "px",
+    "py",
+    "pz",
+    "pxy",
+    "pxz",
+    "pyz"
+  ],
+  "feature_count": 6,
+  "semantic_slot_order": [
+    "source-x sin k3",
+    "source-y sin k3",
+    "source-z sin k3",
+    "source-x cos k3",
+    "source-y cos k3",
+    "source-z cos k3"
+  ],
+  "actual_global_tensor_indices": [
+    60,
+    76,
+    92,
+    68,
+    84,
+    100
+  ],
+  "slot_mapping": [
+    {
+      "slot": 0,
+      "feature": "px",
+      "global_tensor_index": 60
+    },
+    {
+      "slot": 1,
+      "feature": "py",
+      "global_tensor_index": 76
+    },
+    {
+      "slot": 2,
+      "feature": "pz",
+      "global_tensor_index": 92
+    },
+    {
+      "slot": 3,
+      "feature": "pxy",
+      "global_tensor_index": 68
+    },
+    {
+      "slot": 4,
+      "feature": "pxz",
+      "global_tensor_index": 84
+    },
+    {
+      "slot": 5,
+      "feature": "pyz",
+      "global_tensor_index": 100
+    }
+  ],
+  "slots_no_longer_mean_Fourier_k3_when_enabled": true,
+  "artificial_distance_threshold": null,
+  "exponential_scale": null,
+  "learnable_scale": null,
+  "boundary_class_label_used": false,
+  "burned_stratum_label_used": false,
+  "target_values_used": false,
+  "feature_parameter_count": 0,
+  "feature_buffer_count": 0,
+  "boundary_features_enabled_false_means_all_six_slots_zero": true,
+  "gate": "PASS"
+}
