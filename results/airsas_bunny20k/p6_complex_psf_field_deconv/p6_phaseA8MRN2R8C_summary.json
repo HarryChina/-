@@ -1,0 +1,1099 @@
+{
+  "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_IMPROVES_H2_BUT_NOT_READY",
+  "completed": "2026-09-04T20:39:45.194436+08:00",
+  "stage": "CONTROLLED_H3_DEVELOPMENT_NOT_FORMAL_FRESH_VALIDATION",
+  "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+  "parameter_count": 414210,
+  "input_dimension": 165,
+  "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "boundary_features": [
+    "px",
+    "py",
+    "pz",
+    "pxy",
+    "pxz",
+    "pyz"
+  ],
+  "boundary_slots": [
+    60,
+    76,
+    92,
+    68,
+    84,
+    100
+  ],
+  "source_x_retained_k": [
+    0,
+    1,
+    2
+  ],
+  "source_y_retained_k": [
+    0,
+    1,
+    2
+  ],
+  "source_z_retained_k": [
+    0,
+    1
+  ],
+  "source_z_k2_zero": true,
+  "source_k4_to_k7_zero": true,
+  "output_k0_to_k7_unchanged": true,
+  "relative_k0_to_k9_unchanged": true,
+  "unique_science_change": "six deterministic boundary geometry features in six H2-zero SOURCE-LIKE k3 slots",
+  "dual_loss_unchanged": true,
+  "gain_loss_absent": true,
+  "completed_updates": 20000,
+  "sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+  "sample_stream_match": true,
+  "feature_support_coverage": {
+    "classification": "P6_PHASEA8MRN2R8C_H3_FEATURE_SUPPORT_COVERAGE_COMPLETE",
+    "updated": "2026-09-04T20:38:42.522018+08:00",
+    "current_update": 20000,
+    "feature_names": [
+      "px",
+      "py",
+      "pz",
+      "pxy",
+      "pxz",
+      "pyz"
+    ],
+    "frozen_TRAIN_source_branch": {
+      "role": "A branch SECOND=r after C4; frozen TRAIN140 C4-closed source support",
+      "unique_coordinate_count": 140,
+      "C4_closure": "PASS",
+      "feature_statistics": {
+        "px": {
+          "min": 0.19463087248322153,
+          "max": 1.0,
+          "mean": 0.5858101629913711,
+          "std_population_ddof0": 0.3190509980562695
+        },
+        "py": {
+          "min": 0.19463087248322153,
+          "max": 1.0,
+          "mean": 0.5858101629913711,
+          "std_population_ddof0": 0.3190509980562695
+        },
+        "pz": {
+          "min": 0.008403361344537785,
+          "max": 1.0,
+          "mean": 0.6,
+          "std_population_ddof0": 0.37194154470246865
+        },
+        "pxy": {
+          "min": 0.037881176523580036,
+          "max": 1.0,
+          "mean": 0.315243200113251,
+          "std_population_ddof0": 0.24836963630747036
+        },
+        "pxz": {
+          "min": 0.0016355535502791667,
+          "max": 1.0,
+          "mean": 0.3498811605178984,
+          "std_population_ddof0": 0.3188969726283083
+        },
+        "pyz": {
+          "min": 0.0016355535502791667,
+          "max": 1.0,
+          "mean": 0.3498811605178984,
+          "std_population_ddof0": 0.31889697262830824
+        }
+      }
+    },
+    "frozen_reciprocal_expected": {
+      "role": "R branch SECOND=u after C4",
+      "unique_coordinate_count": 2699864,
+      "native_domain_count": 2700000,
+      "excluded_C4_closed_blacklist_count": 136,
+      "coverage_fraction": 0.9999496296296296,
+      "unique_x_levels": 150,
+      "unique_y_levels": 150,
+      "unique_z_levels": 120,
+      "feature_statistics": {
+        "px": {
+          "min": 0.006711409395973145,
+          "max": 1.0,
+          "mean": 0.503350046943454,
+          "std_population_ddof0": 0.29058360369793196
+        },
+        "py": {
+          "min": 0.006711409395973145,
+          "max": 1.0,
+          "mean": 0.5033500469434429,
+          "std_population_ddof0": 0.2905836036979505
+        },
+        "pz": {
+          "min": 0.008403361344537785,
+          "max": 1.0,
+          "mean": 0.5041942355415848,
+          "std_population_ddof0": 0.2910565472515231
+        },
+        "pxy": {
+          "min": 4.504301608035661e-05,
+          "max": 1.0,
+          "mean": 0.25335869113365056,
+          "std_population_ddof0": 0.22341509480781085
+        },
+        "pxz": {
+          "min": 5.639839828548841e-05,
+          "max": 1.0,
+          "mean": 0.25378519466176674,
+          "std_population_ddof0": 0.22378768130751114
+        },
+        "pyz": {
+          "min": 5.639839828548841e-05,
+          "max": 1.0,
+          "mean": 0.253785194661767,
+          "std_population_ddof0": 0.2237876813075107
+        }
+      },
+      "covers_full_nonblacklisted_native_coordinate_domain": true,
+      "covers_continuous_normalized_native_axis_ranges": true
+    },
+    "native_volume": 2700000,
+    "unique_reciprocal_source_coordinates": 2699864,
+    "coverage_fraction": 0.9999496296296296,
+    "coverage_percent": 99.99496296296296,
+    "unique_x_levels": 150,
+    "unique_y_levels": 150,
+    "unique_z_levels": 120,
+    "blacklist_hits": 0,
+    "VAL_TEST_burned_closure_hits": 0,
+    "bitset_saved_only_in_checkpoints": true,
+    "full_sample_stream_saved": false,
+    "diagnostic_only": true,
+    "used_for_checkpoint_selection": false,
+    "gate": "PASS"
+  },
+  "best_checkpoint": {
+    "classification": "P6_PHASEA8MRN2R8C_H3_BEST_CHECKPOINT_FROZEN",
+    "created": "2026-09-04T20:38:42.287675+08:00",
+    "formal_lineage_id": "2a865ec6-89fd-480b-9d90-cb5976355462",
+    "candidate": "H2_BOUNDARY_AWARE_SOURCE_GEOMETRY_FIXED_FEATURES",
+    "best_update": 18000,
+    "checkpoint_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\phaseA8MRN2R8C_work\\checkpoints\\H3_update_18000.pt",
+    "checkpoint_SHA256": "1f45bc2b8517273eeb69b76b2c7559df5174272dd102ae9a507cc872cb020c7d",
+    "pooled_VAL": 0.05320869817865062,
+    "max_column_VAL": 0.07868135918409411,
+    "final_update_VAL": {
+      "update": 20000,
+      "pooled": 0.05330769897381319,
+      "max_column": 0.09038880776484777
+    },
+    "H3_source_SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+    "historical_model_source_SHA256": "8c18769dd203cc14899dc942bf9b9d25d93aaa9eb7570c3a10998349259d19d2",
+    "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+    "sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+    "split_SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+    "VAL_probe_SHA256": "718c4152461367368be80e02408c18667da09b18dc5550327337ccc06c8fb24b",
+    "blacklist_SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+    "INTERNAL_TEST_access_before_freeze": false,
+    "burned24_access_before_freeze": false,
+    "selection_inputs": "VAL final-sym only",
+    "gate": "PASS"
+  },
+  "INTERNAL_TEST_summary": {
+    "pooled": {
+      "full_complex_NRMSE": {
+        "n": 20,
+        "median": 0.058477638378815554,
+        "max": 0.07084092214014827,
+        "min": 0.04356593314811039
+      },
+      "native_center_gain_relative_error": {
+        "n": 20,
+        "median": 0.009533124778414863,
+        "max": 0.0359256027823134,
+        "min": 0.0021659603282582597
+      },
+      "total_energy_relative_error": {
+        "n": 20,
+        "median": 0.017578924580276344,
+        "max": 0.042459153888340956,
+        "min": 0.0005758112163327212
+      },
+      "peak_location_error_voxels": {
+        "n": 20,
+        "median": 0.0,
+        "max": 0.0,
+        "min": 0.0
+      },
+      "boundary_region_complex_NRMSE": {
+        "n": 20,
+        "median": 0.05860532549666142,
+        "max": 0.0704064661660561,
+        "min": 0.04969765584211199
+      }
+    },
+    "strata": {
+      "interior": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.0437332499599586,
+          "max": 0.044326111242343216,
+          "min": 0.04356593314811039
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.007498379895349057,
+          "max": 0.02223242199770663,
+          "min": 0.0023280949877821154
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.01604112750900074,
+          "max": 0.019578114101120772,
+          "min": 0.012271837664683656
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.05010405815776409,
+          "max": 0.05024716330790796,
+          "min": 0.04969765584211199
+        }
+      },
+      "multi-boundary/corner": {
+        "full_complex_NRMSE": {
+          "n": 8,
+          "median": 0.06305389490683325,
+          "max": 0.07084092214014827,
+          "min": 0.05820503883753998
+        },
+        "native_center_gain_relative_error": {
+          "n": 8,
+          "median": 0.009545164662517695,
+          "max": 0.03104386152866511,
+          "min": 0.002973569611390598
+        },
+        "total_energy_relative_error": {
+          "n": 8,
+          "median": 0.01634379646669222,
+          "max": 0.03454636766274422,
+          "min": 0.0005758112163327212
+        },
+        "peak_location_error_voxels": {
+          "n": 8,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 8,
+          "median": 0.06274465389663661,
+          "max": 0.0704064661660561,
+          "min": 0.058201384977365184
+        }
+      },
+      "single-boundary": {
+        "full_complex_NRMSE": {
+          "n": 8,
+          "median": 0.05757972725293964,
+          "max": 0.06109603917063861,
+          "min": 0.053947696933125996
+        },
+        "native_center_gain_relative_error": {
+          "n": 8,
+          "median": 0.012657376852453463,
+          "max": 0.0359256027823134,
+          "min": 0.0021659603282582597
+        },
+        "total_energy_relative_error": {
+          "n": 8,
+          "median": 0.027825686257370426,
+          "max": 0.042459153888340956,
+          "min": 0.0024866310961639947
+        },
+        "peak_location_error_voxels": {
+          "n": 8,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 8,
+          "median": 0.05727507868844064,
+          "max": 0.061406911306638993,
+          "min": 0.05278952059529994
+        }
+      }
+    }
+  },
+  "INTERNAL_TEST_raw_summary": {
+    "final_symmetrized_NRMSE": {
+      "n": 20,
+      "median": 0.058477638378815554,
+      "max": 0.07084092214014827,
+      "min": 0.04356593314811039,
+      "mean": 0.057234920239188844
+    },
+    "raw_branch_A_NRMSE": {
+      "n": 20,
+      "median": 0.06150276514167131,
+      "max": 0.07219569525382082,
+      "min": 0.04964242510907687,
+      "mean": 0.06062982732604544
+    },
+    "raw_branch_B_NRMSE": {
+      "n": 20,
+      "median": 0.061016891948800875,
+      "max": 0.07647779220888579,
+      "min": 0.044080581541351825,
+      "mean": 0.06023465205630257
+    },
+    "raw_branch_disagreement": {
+      "n": 20,
+      "median": 0.036653915732196465,
+      "max": 0.049791855036241,
+      "min": 0.03492688368129197,
+      "mean": 0.03875525147323318
+    },
+    "error_cosine": {
+      "n": 20,
+      "median": 0.8073808829782687,
+      "max": 0.8328123707116855,
+      "min": 0.7064053460859587,
+      "mean": 0.79029075915844
+    },
+    "cancellation_ratio": {
+      "n": 20,
+      "median": 0.9506500391155019,
+      "max": 0.9572938347556892,
+      "min": 0.9238878465516228,
+      "mean": 0.9461185270101373
+    }
+  },
+  "cancellation_retest": {
+    "classification": "P6_PHASEA8MRN2R8C_HIDDEN_BRANCH_CANCELLATION_RETEST_COMPLETE",
+    "completed": "2026-09-04T20:39:11.637040+08:00",
+    "HIDDEN_BRANCH_CANCELLATION_SUPPORTED_AFTER_H3": false,
+    "checks": {
+      "final_symmetrized_median": {
+        "value": 0.058477638378815554,
+        "rule": "<=",
+        "threshold": 0.08,
+        "gate": "PASS"
+      },
+      "raw_mean_vs_final": {
+        "raw_A_median": 0.06150276514167131,
+        "raw_B_median": 0.061016891948800875,
+        "raw_mean_median": 0.061259828545236095,
+        "final_median": 0.058477638378815554,
+        "value_ratio": 1.0475769925659042,
+        "rule": ">=",
+        "threshold_multiplier": 1.5,
+        "gate": "FAIL"
+      },
+      "error_cosine_median": {
+        "value": 0.8073808829782687,
+        "rule": "<=",
+        "threshold": -0.25,
+        "gate": "FAIL"
+      }
+    },
+    "thresholds_unchanged_from_R1_R3": true,
+    "gate": "PASS"
+  },
+  "burned24_summary": {
+    "pooled": {
+      "full_complex_NRMSE": {
+        "n": 24,
+        "median": 0.06660179578093173,
+        "max": 0.12139477236343238,
+        "min": 0.054622239479776014
+      },
+      "native_center_gain_relative_error": {
+        "n": 24,
+        "median": 0.07052240806570562,
+        "max": 0.18721155057525807,
+        "min": 0.003966843952206318
+      },
+      "total_energy_relative_error": {
+        "n": 24,
+        "median": 0.01788038221192561,
+        "max": 0.05499024150929448,
+        "min": 0.0006543995771421712
+      },
+      "peak_location_error_voxels": {
+        "n": 24,
+        "median": 0.0,
+        "max": 0.0,
+        "min": 0.0
+      },
+      "boundary_region_complex_NRMSE": {
+        "n": 24,
+        "median": 0.06634186330782878,
+        "max": 0.12631352870541893,
+        "min": 0.05109151641058179
+      }
+    },
+    "strata": {
+      "corner_or_mixed_boundary": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.09989041504487106,
+          "max": 0.12139477236343238,
+          "min": 0.07651501458917798
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.13123086275889706,
+          "max": 0.17594314465841243,
+          "min": 0.07784498295802754
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.029712355085002036,
+          "max": 0.0418993221615957,
+          "min": 0.0006543995771421712
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.10208352754516425,
+          "max": 0.12631352870541893,
+          "min": 0.07746468696762167
+        }
+      },
+      "interior": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.05863565445241631,
+          "max": 0.069411255623151,
+          "min": 0.054622239479776014
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.06090454277721309,
+          "max": 0.10393050992510657,
+          "min": 0.024883067822360407
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.02274087782957281,
+          "max": 0.04410872712075701,
+          "min": 0.004507480500692701
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.05785147393957872,
+          "max": 0.06549116169925005,
+          "min": 0.05109151641058179
+        }
+      },
+      "x_boundary_near": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.07007445565075794,
+          "max": 0.07403472811840339,
+          "min": 0.06604227983282451
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.0766033637753526,
+          "max": 0.10564048415925047,
+          "min": 0.05749646820829557
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.010553055347973617,
+          "max": 0.025550831201596583,
+          "min": 0.0051936568551952875
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.07046914389522146,
+          "max": 0.07491883823059214,
+          "min": 0.06599007138820083
+        }
+      },
+      "y_boundary_near": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.06471467560026639,
+          "max": 0.07763009863920245,
+          "min": 0.060967948657032735
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.029690166135556893,
+          "max": 0.07008543150090979,
+          "min": 0.003966843952206318
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.009399750284032534,
+          "max": 0.015324106862033327,
+          "min": 0.005665020212178868
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.06452872772876309,
+          "max": 0.0774682349866866,
+          "min": 0.06092127186430175
+        }
+      },
+      "z_high": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.05705720934452527,
+          "max": 0.06129461992633381,
+          "min": 0.056268929611139225
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.03974488438430384,
+          "max": 0.08277349545091388,
+          "min": 0.03582964618137085
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.016979615297400046,
+          "max": 0.03878542696555115,
+          "min": 0.004599292262944801
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.059918607447124086,
+          "max": 0.06593126954543328,
+          "min": 0.05635688951844882
+        }
+      },
+      "z_low": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.072568204603711,
+          "max": 0.08947092201689583,
+          "min": 0.06286740144950127
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.1270868500998543,
+          "max": 0.18721155057525807,
+          "min": 0.023900863204387675
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.0338773442399438,
+          "max": 0.05499024150929448,
+          "min": 0.022599365999958036
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.07464859978654301,
+          "max": 0.09512377958450961,
+          "min": 0.06316612866582881
+        }
+      }
+    }
+  },
+  "burned24_raw_summary": {
+    "final_symmetrized_NRMSE": {
+      "n": 24,
+      "median": 0.06660179578093173,
+      "max": 0.12139477236343238,
+      "min": 0.054622239479776014,
+      "mean": 0.07151672665416527
+    },
+    "raw_branch_A_NRMSE": {
+      "n": 24,
+      "median": 0.07208320315166833,
+      "max": 0.12224852059233002,
+      "min": 0.058229514110097524,
+      "mean": 0.07813557736122718
+    },
+    "raw_branch_B_NRMSE": {
+      "n": 24,
+      "median": 0.07606508291082176,
+      "max": 0.14581843746766263,
+      "min": 0.05701807619866623,
+      "mean": 0.08252754116171875
+    },
+    "raw_branch_disagreement": {
+      "n": 24,
+      "median": 0.060802461682834506,
+      "max": 0.1409545080584759,
+      "min": 0.046230899849075656,
+      "mean": 0.07211003637860992
+    },
+    "error_cosine": {
+      "n": 24,
+      "median": 0.6391470373546964,
+      "max": 0.8165457231166094,
+      "min": 0.19610975931905486,
+      "mean": 0.6031957636921473
+    },
+    "cancellation_ratio": {
+      "n": 24,
+      "median": 0.9058357987586354,
+      "max": 0.9531104438192484,
+      "min": 0.7733652530002819,
+      "mean": 0.8946763865685415
+    }
+  },
+  "boundary_controlled_comparison": {
+    "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_CONTROLLED_COMPARISON_COMPLETE",
+    "completed": "2026-09-04T20:39:44.942988+08:00",
+    "comparison": "H3 versus frozen H2 on identical burned24 strata",
+    "H2": {
+      "full_median": 0.06661221680459492,
+      "full_max": 0.11284294662938457,
+      "energy_median": 0.03326439677655908,
+      "energy_max": 0.08207767626306936,
+      "boundary_median": 0.06696237364173963,
+      "boundary_max": 0.11592803604241879,
+      "peak_max": 0.0,
+      "interior_full_median": 0.05624652105042159,
+      "corner_or_mixed_full_median": 0.09062327057886223,
+      "corner_over_interior_ratio": 1.6111800140958756
+    },
+    "H3": {
+      "full_median": 0.06660179578093173,
+      "full_max": 0.12139477236343238,
+      "energy_median": 0.01788038221192561,
+      "energy_max": 0.05499024150929448,
+      "boundary_median": 0.06634186330782878,
+      "boundary_max": 0.12631352870541893,
+      "peak_max": 0.0,
+      "interior_full_median": 0.05863565445241631,
+      "corner_or_mixed_full_median": 0.09989041504487106,
+      "corner_over_interior_ratio": 1.7035780699938055
+    },
+    "H3_vs_H2_improvement_percent": {
+      "full_median": 0.015644312955028588,
+      "full_max": -7.578520403348712,
+      "energy_median": 46.24768838578295,
+      "energy_max": 33.00219497803059,
+      "boundary_median": 0.9266552246649538,
+      "boundary_max": -8.958568623727931,
+      "interior_full_median": -4.247610976424665,
+      "corner_or_mixed_full_median": -10.226009728863598,
+      "corner_over_interior_ratio": -5.734806482798858
+    },
+    "H3_best_VAL": {
+      "update": 18000,
+      "pooled": 0.05320869817865062,
+      "max_column": 0.07868135918409411
+    },
+    "H3_final_VAL": {
+      "update": 20000,
+      "pooled": 0.05330769897381319,
+      "max_column": 0.09038880776484777
+    },
+    "H2_best_VAL": {
+      "update": 20000,
+      "pooled": 0.05586241424195242,
+      "max_column": 0.07929271320508936
+    },
+    "H3_INTERNAL_TEST": {
+      "full_complex_NRMSE": {
+        "n": 20,
+        "median": 0.058477638378815554,
+        "max": 0.07084092214014827,
+        "min": 0.04356593314811039
+      },
+      "native_center_gain_relative_error": {
+        "n": 20,
+        "median": 0.009533124778414863,
+        "max": 0.0359256027823134,
+        "min": 0.0021659603282582597
+      },
+      "total_energy_relative_error": {
+        "n": 20,
+        "median": 0.017578924580276344,
+        "max": 0.042459153888340956,
+        "min": 0.0005758112163327212
+      },
+      "peak_location_error_voxels": {
+        "n": 20,
+        "median": 0.0,
+        "max": 0.0,
+        "min": 0.0
+      },
+      "boundary_region_complex_NRMSE": {
+        "n": 20,
+        "median": 0.05860532549666142,
+        "max": 0.0704064661660561,
+        "min": 0.04969765584211199
+      }
+    },
+    "H3_INTERNAL_raw": {
+      "final_symmetrized_NRMSE": {
+        "n": 20,
+        "median": 0.058477638378815554,
+        "max": 0.07084092214014827,
+        "min": 0.04356593314811039,
+        "mean": 0.057234920239188844
+      },
+      "raw_branch_A_NRMSE": {
+        "n": 20,
+        "median": 0.06150276514167131,
+        "max": 0.07219569525382082,
+        "min": 0.04964242510907687,
+        "mean": 0.06062982732604544
+      },
+      "raw_branch_B_NRMSE": {
+        "n": 20,
+        "median": 0.061016891948800875,
+        "max": 0.07647779220888579,
+        "min": 0.044080581541351825,
+        "mean": 0.06023465205630257
+      },
+      "raw_branch_disagreement": {
+        "n": 20,
+        "median": 0.036653915732196465,
+        "max": 0.049791855036241,
+        "min": 0.03492688368129197,
+        "mean": 0.03875525147323318
+      },
+      "error_cosine": {
+        "n": 20,
+        "median": 0.8073808829782687,
+        "max": 0.8328123707116855,
+        "min": 0.7064053460859587,
+        "mean": 0.79029075915844
+      },
+      "cancellation_ratio": {
+        "n": 20,
+        "median": 0.9506500391155019,
+        "max": 0.9572938347556892,
+        "min": 0.9238878465516228,
+        "mean": 0.9461185270101373
+      }
+    },
+    "burned24_role": "DEVELOPMENT_DIAGNOSTIC_ONLY",
+    "used_for_checkpoint_selection": false,
+    "retraining_triggered": false,
+    "gate": "PASS"
+  },
+  "gain_controlled_comparison": {
+    "classification": "P6_PHASEA8MRN2R8C_GAIN_CONTROLLED_COMPARISON_COMPLETE",
+    "completed": "2026-09-04T20:39:44.942988+08:00",
+    "comparison": "H3 versus frozen H2 on identical burned24",
+    "H2": {
+      "gain_median": 0.04118274262184512,
+      "gain_max": 0.14848258760888638
+    },
+    "H3": {
+      "gain_median": 0.07052240806570562,
+      "gain_max": 0.18721155057525807
+    },
+    "H3_vs_H2_improvement_percent": {
+      "gain_median": -71.24262148654826,
+      "gain_max": -26.08316812769084
+    },
+    "top5_H3_gain_residual_sources": [
+      {
+        "name": "A8M_FRESH_Z_LOW_04",
+        "source_index_xyz": [
+          28,
+          47,
+          4
+        ],
+        "stratum": "z_low",
+        "native_center_gain_relative_error": 0.18721155057525807,
+        "full_complex_NRMSE": 0.08947092201689583,
+        "boundary_region_complex_NRMSE": 0.09512377958450961
+      },
+      {
+        "name": "A8M_FRESH_CORNER_OR_MIXED_BOUNDARY_04",
+        "source_index_xyz": [
+          145,
+          146,
+          114
+        ],
+        "stratum": "corner_or_mixed_boundary",
+        "native_center_gain_relative_error": 0.17594314465841243,
+        "full_complex_NRMSE": 0.10528154427202208,
+        "boundary_region_complex_NRMSE": 0.10772125375131648
+      },
+      {
+        "name": "A8M_FRESH_Z_LOW_03",
+        "source_index_xyz": [
+          48,
+          131,
+          2
+        ],
+        "stratum": "z_low",
+        "native_center_gain_relative_error": 0.1464651677922335,
+        "full_complex_NRMSE": 0.07291575302113817,
+        "boundary_region_complex_NRMSE": 0.07514815556632794
+      },
+      {
+        "name": "A8M_FRESH_CORNER_OR_MIXED_BOUNDARY_02",
+        "source_index_xyz": [
+          147,
+          1,
+          5
+        ],
+        "stratum": "corner_or_mixed_boundary",
+        "native_center_gain_relative_error": 0.13148837252327672,
+        "full_complex_NRMSE": 0.12139477236343238,
+        "boundary_region_complex_NRMSE": 0.12631352870541893
+      },
+      {
+        "name": "A8M_FRESH_CORNER_OR_MIXED_BOUNDARY_03",
+        "source_index_xyz": [
+          2,
+          1,
+          115
+        ],
+        "stratum": "corner_or_mixed_boundary",
+        "native_center_gain_relative_error": 0.1309733529945174,
+        "full_complex_NRMSE": 0.09449928581772006,
+        "boundary_region_complex_NRMSE": 0.09644580133901202
+      }
+    ],
+    "gain_or_diagonal_loss_used": false,
+    "TRAIN140_diagonal_affects_training": false,
+    "used_for_checkpoint_selection": false,
+    "retraining_triggered": false,
+    "gate": "PASS"
+  },
+  "readiness_and_outcome": {
+    "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_IMPROVES_H2_BUT_NOT_READY",
+    "completed": "2026-09-04T20:39:44.945056+08:00",
+    "R8C_order": [
+      "D",
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "CANCEL3": false,
+    "READY3": false,
+    "H3_full_median": 0.06660179578093173,
+    "H2_full_median": 0.06661221680459492,
+    "H3_gain_max": 0.18721155057525807,
+    "H2_gain_max": 0.14848258760888638,
+    "outcome_case": "B",
+    "readiness": {
+      "READY": false,
+      "checks": {
+        "full_median": {
+          "value": 0.06660179578093173,
+          "rule": "<=",
+          "threshold": 0.06,
+          "gate": "FAIL"
+        },
+        "full_max": {
+          "value": 0.12139477236343238,
+          "rule": "<=",
+          "threshold": 0.1,
+          "gate": "FAIL"
+        },
+        "energy_median": {
+          "value": 0.01788038221192561,
+          "rule": "<=",
+          "threshold": 0.04,
+          "gate": "PASS"
+        },
+        "energy_max": {
+          "value": 0.05499024150929448,
+          "rule": "<=",
+          "threshold": 0.06,
+          "gate": "PASS"
+        },
+        "boundary_median": {
+          "value": 0.06634186330782878,
+          "rule": "<=",
+          "threshold": 0.1,
+          "gate": "PASS"
+        },
+        "boundary_max": {
+          "value": 0.12631352870541893,
+          "rule": "<=",
+          "threshold": 0.16,
+          "gate": "PASS"
+        },
+        "peak_max": {
+          "value": 0.0,
+          "rule": "<=",
+          "threshold": 1.0,
+          "gate": "PASS"
+        },
+        "center_gain_max": {
+          "value": 0.18721155057525807,
+          "rule": "<=",
+          "threshold": 0.02,
+          "gate": "FAIL"
+        }
+      },
+      "thresholds_unchanged": true,
+      "gate": "FAIL"
+    },
+    "strict_equalities": {
+      "H3m_equals_H2m": "not improvement",
+      "H3g_equals_H2g": "not improvement"
+    },
+    "interpretation_boundary": "H3 differs from H2 only by six deterministic SOURCE-LIKE boundary geometry features in the six H2-zero k3 slots; this remains development, not formal fresh validation.",
+    "post_hoc_feature_search": false,
+    "burned_driven_retraining": false,
+    "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION",
+    "gate": "PASS"
+  },
+  "resource_runtime": {
+    "classification": "P6_PHASEA8MRN2R8C_RESOURCE_RUNTIME_COMPLETE",
+    "completed": "2026-09-04T20:39:45.184784+08:00",
+    "preflight": {
+      "classification": "P6_PHASEA8MRN2R8B_H3_DUMMY_RESOURCE_FEASIBILITY_PASS",
+      "created": "2026-09-04T20:28:06.607608+08:00",
+      "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "batch_pairs": 32768,
+      "dtype_policy": "FP16 autocast forward; FP32 dual loss/backward",
+      "parameter_count": 414210,
+      "dummy_dual_loss": 2.0239224433898926,
+      "loss_finite": true,
+      "gradients_finite": true,
+      "seconds_per_update": 0.14166869999962728,
+      "estimated_20000_update_hours_no_validation_or_IO": 0.7870483333312627,
+      "peak_allocated_VRAM_GiB": 0.45255422592163086,
+      "peak_reserved_VRAM_GiB": 0.544921875,
+      "peak_reserved_limit_GiB": 7.5,
+      "science_optimizer_constructed": false,
+      "optimizer_step_executed": false,
+      "science_training": false,
+      "gate": "PASS"
+    },
+    "training": {
+      "training_wall_seconds": 566.2775992999814,
+      "validation_wall_seconds": 24.36798580000095,
+      "training_and_validation_total_seconds": 629.2104739000001,
+      "updates_per_second_training": 35.31836686586846,
+      "peak_GPU_allocated_bytes": 493651968,
+      "peak_GPU_reserved_bytes": 593494016,
+      "peak_system_RAM_bytes": 5462052864,
+      "process_OS_read_bytes_delta_training": 280168552
+    },
+    "INTERNAL_TEST": {
+      "n": 20,
+      "total_seconds": 27.740536100000554,
+      "seconds_per_PSF": {
+        "n": 20,
+        "median": 1.3657498000002306,
+        "max": 1.5278134000000136,
+        "min": 1.3389915999996447,
+        "mean": 1.3870268050000276
+      }
+    },
+    "burned24": {
+      "n": 24,
+      "total_seconds": 32.272358699999586,
+      "seconds_per_PSF": {
+        "n": 24,
+        "median": 1.3414789500000097,
+        "max": 1.3813709999999446,
+        "min": 1.3324555000003784,
+        "mean": 1.3446816124999827
+      }
+    },
+    "total_wall_seconds": 699.0936131999997,
+    "GPU_device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "peak_GPU_allocated_bytes": 493651968,
+    "peak_GPU_reserved_bytes": 593494016,
+    "peak_GPU_reserved_GiB": 0.552734375,
+    "peak_reserved_limit_GiB": 7.5,
+    "peak_reserved_gate": "PASS",
+    "peak_system_RAM_bytes": 5462052864,
+    "PSF_bytes_read": {
+      "logical_PSF_payload_bytes_read": {
+        "TRAIN_full_statistics_payload_bytes": 0,
+        "TRAIN_sampled_target_payload_bytes": 5242880000,
+        "VAL_probe_target_payload_bytes": 10485760,
+        "INTERNAL_TEST_full_payload_bytes": 432002560,
+        "burned24_full_payload_bytes": 518403072
+      },
+      "logical_total": 6203771392,
+      "process_OS_read_bytes_delta": 1512709119
+    },
+    "checkpoint_count": 40,
+    "checkpoint_directory": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\phaseA8MRN2R8C_work\\checkpoints",
+    "gate": "PASS"
+  },
+  "access_order": {
+    "classification": "P6_PHASEA8MRN2R8C_ISOLATION_AND_ACCESS_ORDER_PASS",
+    "completed": "2026-09-04T20:39:45.193246+08:00",
+    "VAL_gradient_contribution": 0,
+    "INTERNAL_TEST_access_before_H3_freeze": false,
+    "burned_access_before_H3_freeze": false,
+    "burned_access_before_INTERNAL_TEST_completion": false,
+    "burned_access_before_cancellation_retest": false,
+    "burned_used_for_checkpoint_selection": false,
+    "gain_used_for_checkpoint_selection": false,
+    "raw_branch_used_for_checkpoint_selection": false,
+    "strata_used_for_checkpoint_selection": false,
+    "best_freeze_timestamp": "2026-09-04T20:38:42.552218+08:00",
+    "INTERNAL_TEST_first_access_timestamp": "2026-09-04T20:38:42.692669+08:00",
+    "cancellation_retest_complete_timestamp": "2026-09-04T20:39:11.645087+08:00",
+    "burned24_first_access_timestamp": "2026-09-04T20:39:11.659322+08:00",
+    "timestamp_order_strict": true,
+    "TRAIN140_diagonal_affects_training": false,
+    "fresh30_selected": 0,
+    "fresh30_accessed": 0,
+    "operator_access": false,
+    "operator_cases": 0,
+    "new_exact_physics": 0,
+    "new_exact_PSF": 0,
+    "new_complete_PSF_columns": 0,
+    "anchor_densification": 0,
+    "external_science_access": false,
+    "Bunny_normal": 0,
+    "Bunny_deconvolution": 0,
+    "inverse_runs": 0,
+    "NVR_updates": 0,
+    "exact_F0_updates": 0,
+    "prediction_arrays_saved": 0,
+    "gate": "PASS"
+  },
+  "interpretation_boundary": "H3 differs from H2 only by six deterministic SOURCE-LIKE boundary geometry features in the six H2-zero k3 slots; this remains development, not formal fresh validation.",
+  "fresh30_selected": 0,
+  "fresh30_accessed": 0,
+  "operator_cases": 0,
+  "new_physics": 0,
+  "neural_field_development_ready": false,
+  "formal_fresh_validation_passed": false,
+  "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION",
+  "report_path": "F:\\psf模糊核\\docs\\P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_DEVELOPMENT.md",
+  "report_SHA256": "fd375baa286072c2dc799cabadbaf7c2909ca18da395c27fc7bd02bfc2221828"
+}

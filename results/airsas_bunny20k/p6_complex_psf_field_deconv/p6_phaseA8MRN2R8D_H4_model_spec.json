@@ -1,0 +1,102 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_H4_MODEL_SPEC_FROZEN",
+  "created": "2026-09-04T21:15:38.105882+08:00",
+  "candidate": "H4_H3_TRAIN140_DENSE_UNIT_DIAGONAL_CONSISTENCY_LAMBDA0P1",
+  "candidate_count": 1,
+  "parent": "H3",
+  "architecture": "exactly H3",
+  "parameter_count": 414210,
+  "input_dimension": 165,
+  "model_seed": 20260909,
+  "fresh_initialization": true,
+  "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "boundary_features": [
+    "px",
+    "py",
+    "pz",
+    "pxy",
+    "pxz",
+    "pyz"
+  ],
+  "boundary_feature_slots": [
+    60,
+    76,
+    92,
+    68,
+    84,
+    100
+  ],
+  "source_x_y_retained_k": [
+    0,
+    1,
+    2
+  ],
+  "source_z_retained_k": [
+    0,
+    1
+  ],
+  "source_z_k2_zero": true,
+  "source_k4_to_k7_zero": true,
+  "output_k0_to_k7_unchanged": true,
+  "relative_k0_to_k9_unchanged": true,
+  "new_parameters": 0,
+  "new_buffers": 0,
+  "inference_formula": "K_H4(u,r)=0.5*(A+B)",
+  "inference_hard_coded_center": false,
+  "post_hoc_column_normalization": false,
+  "gain_clipping": false,
+  "manual_amplitude_correction": false,
+  "historical_H3_source": {
+    "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+    "SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+    "read_only": true
+  },
+  "H4_helper_source": {
+    "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8D_diagonal_gain_consistency_model.py",
+    "SHA256": "a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53"
+  },
+  "unit_tests": {
+    "classification": "P6_PHASEA8MRN2R8D_H4_PREFLIGHT_UNIT_TESTS_PASS",
+    "created": "2026-09-04T21:15:37.687207+08:00",
+    "params_414210": true,
+    "input_165": true,
+    "H3_forward_max_normalized_discrepancy": 0.0,
+    "H3_forward_threshold_max": 1e-07,
+    "H3_forward_bitwise_equal": true,
+    "initial_SHA_identity": true,
+    "boundary_features_unchanged": [
+      "px",
+      "py",
+      "pz",
+      "pxy",
+      "pxz",
+      "pyz"
+    ],
+    "boundary_feature_slots_unchanged": [
+      60,
+      76,
+      92,
+      68,
+      84,
+      100
+    ],
+    "source_masks_unchanged": true,
+    "output_PE_unchanged": true,
+    "relative_PE_unchanged": true,
+    "q_source_equals_q_output": true,
+    "d_zero_exact": true,
+    "target_1_plus_0j_exact": true,
+    "A_diag_finite": true,
+    "B_diag_finite": true,
+    "L_diag_finite": true,
+    "diag_gradient_norm": 2.2792299066287636,
+    "field_gradient_norm": 0.17344287198175426,
+    "diag_gradients_nonzero": true,
+    "field_gradients_nonzero": true,
+    "detach_used": false,
+    "Hermitian_max_normalized_discrepancy": 0.0,
+    "Hermitian_threshold_max": 1e-06,
+    "gate": "PASS"
+  },
+  "gate": "PASS"
+}

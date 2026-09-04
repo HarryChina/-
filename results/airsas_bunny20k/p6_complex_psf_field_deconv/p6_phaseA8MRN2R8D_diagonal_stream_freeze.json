@@ -1,0 +1,21 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_DIAGONAL_STREAM_FROZEN",
+  "created": "2026-09-04T21:15:35.578459+08:00",
+  "field_sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+  "authoritative_field_sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+  "field_sample_stream_match": true,
+  "diagonal_coordinate_stream_initial_tag": "P6_PHASEA8MRN2R8D_DIAGONAL_COORDINATE_STREAM_V1",
+  "diagonal_coordinate_stream_SHA256": "395bd3a0e85405db340aab23a0fce4f334b95bf6750b029bbb307b399db526ce",
+  "diagonal_hash_chain_update_payload": [
+    "previous_digest",
+    "update uint32 little-endian",
+    "four field source anchor ids uint16 little-endian",
+    "256 fixed local indices uint16 little-endian applied to each source block",
+    "1024 post-C4 q linear indices uint32 little-endian"
+  ],
+  "local_indices_SHA256": "dae525c6b2518f770eaf3dd8ad8b5b0c3878fe1e0d3702f69ac2762d64e1bacf",
+  "updates": 20000,
+  "field_stream_changed": false,
+  "full_stream_saved": false,
+  "gate": "PASS"
+}

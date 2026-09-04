@@ -1,0 +1,134 @@
+﻿P6 GitHub handoff package
+Generated: 2026-09-05 01:20:10
+Source: F:\psf模糊核
+Destination: F:\psf模糊核\github
+
+COPIED: 38
+MISSING: 0
+
+==================== COPIED ====================
+P6_PROJECT_HANDOFF_2026-09-05.md
+  bytes=12976
+  sha256=813cd6a49bc79bf0898845799235607cc64ac20b6062acf24226d89020497593
+docs\P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_DEVELOPMENT.md
+  bytes=2660
+  sha256=fd375baa286072c2dc799cabadbaf7c2909ca18da395c27fc7bd02bfc2221828
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8C_summary.json
+  bytes=35283
+  sha256=5e876af2e25ea8e9d7165406480428e45e696acba896c559b661132d5c3fe459
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8C_development_readiness_and_outcome.json
+  bytes=2260
+  sha256=674e15999a8f97b17e1ac7987b5a6a03f1a5ede5dd000a4dd40a8de961f9850b
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8C_burned24_metrics.json
+  bytes=28132
+  sha256=15251d506f85ca0bfb355f9b90cf6aad986cf01ed139b67b7308b7837e9f429c
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8C_INTERNAL_TEST_metrics.json
+  bytes=22003
+  sha256=f06033f5e27f1ef6cf68b5c4bc437c84d3b08241c338e58c016561fbca1d40ab
+docs\P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION.md
+  bytes=6500
+  sha256=5a3c52e7ba6238b2a0ec9eb1023fc5d565b22e8c7dafd7870968463ce8ccda70
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_status.json
+  bytes=1237
+  sha256=36116002b078ea64eec2cd327a3c961aa4441db7bc394fe3f7215bd8f3628d73
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_summary.json
+  bytes=5824
+  sha256=3fa136f14ba81a6ceb2b7d2aebbb7aab39366c607037a8480d1260473a709218
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_protocol.json
+  bytes=1633
+  sha256=8fc745231b5aa570d030ece7fcfb65b1ebb1f3abf877ec40e2e74174baca199c
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_R8C_freeze_manifest.json
+  bytes=6077
+  sha256=78ca74fa650bcdb5739c8e04274412af2c1299f2acd52a755634a91d22d5390c
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_scientific_rationale.json
+  bytes=1054
+  sha256=96a8097f51aea49167f1660ca5b91096329c3aaf01578bf472dfdd9c492b9dd3
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_H3_mechanism_postmortem.json
+  bytes=3673
+  sha256=05f0f79ad79e1d142a7521b1bb3418bb17a76264b1b44c109a83ec54c2a5e008
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_TRAIN140_diagonal_prior_freeze.json
+  bytes=2496
+  sha256=d48d2362d8826437a71d3e917bc281a6ba1bccdf5d424efd9805a6f2297f41e6
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_prior_isolation_audit.json
+  bytes=574
+  sha256=b3e02f1cdd34a2434cc0667cfb3f66a06a6fae314826b9b0cfc657d73e6a94e9
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_H4_model_spec.json
+  bytes=2838
+  sha256=4be2ede4481e89995a02cdb60ee88bde4d77a9952b9cde669ce8e05924618687
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_diagonal_coordinate_spec.json
+  bytes=3656
+  sha256=8417028db5bf79f6a42e34cc0c9d6f5f1628e98c7f26dafaab9429ca45d6a384
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_diagonal_coordinate_coverage_audit.json
+  bytes=1108
+  sha256=ebe5e092a819108aa2e395c6a9ffdce9bb6fe85ca406526fc298e430024f5338
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_diagonal_stream_freeze.json
+  bytes=1085
+  sha256=779c3106a9858e85b6f6fb5e149a5ee0047c2c85d38cb9e8c4ac948fbb7d8b4c
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_loss_spec.json
+  bytes=1155
+  sha256=dab257ad014f3383a8356d6a5606a1bdc9ef49eb55d5a389ac7a1c2e426e6776
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_H3_equivalence_audit.json
+  bytes=617
+  sha256=4c72f47c535ff4e8daf699de27e73de39e2f484847e94b9d325ff0932bb023ce
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_initialization_identity_audit.json
+  bytes=701
+  sha256=82f26ac6b688741ae6bdcd001902640da036c981a1638065f8624cb9e41aa2df
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_training_inheritance_manifest.json
+  bytes=2210
+  sha256=ef5992e37462642bb5abd80278788ad84b8617a943096804d905871f40532cab
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_R8E_outcome_protocol.json
+  bytes=2578
+  sha256=debd6e7a485c1571c6ba1f8ba07cbdec440fa40bbe44e92b79294d013f6f2368
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_outcome_truth_table_audit.json
+  bytes=974
+  sha256=7e22317811f72bfae8261213ea81ea4049ad7106974880a294782532369b8747
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8D_dummy_resource_audit.json
+  bytes=1001
+  sha256=5c07a4f1db118be98dd57d504adb5333fa50d019894efcc9e6e7feb60986b900
+scripts\p6_phaseA8MRN2R8D_diagonal_gain_consistency_model.py
+  bytes=2028
+  sha256=a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53
+scripts\p6_phaseA8MRN2R8D_preregister.py
+  bytes=69302
+  sha256=f224243b7f3a8591b8ed9fc7d9ce01bcf15306fa345216526fd0843ce764996e
+scripts\p6_phaseA8MRN2R8E_H4_development.py
+  bytes=96653
+  sha256=4589f8d947c9715437eb96d1b3f9548fe4203bb66bce356ac02c4c2abc0f2c5d
+scripts\monitor_p6_phaseA8MRN2R8E.ps1
+  bytes=8454
+  sha256=3a6f661e6f4f761db890ba6935f1bd270aa0c975a46ffe5c305a110c0a1e7ec7
+scripts\monitor_p6_phaseA8MRN2R8E_ps51.ps1
+  bytes=8033
+  sha256=b5beae02dc2a5cb4d2852db9e0da8aa6fd5728aacad3ac4330e292d1d53565a4
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_status.json
+  bytes=4812
+  sha256=ab1391cb9cf56cb14c6550b5507c2593ff2a6d6fad1e117875eea6b9a404f1b6
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_input_freeze_manifest.json
+  bytes=9636
+  sha256=2b829350c59be5901680d3e8dee56dcb5856bbe910acb4da9a6d19d71a05b155
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_execution_freeze_manifest.json
+  bytes=9892
+  sha256=de5090e9ef01934a3bbb5a1d38e2bf1e5c01e2c3d2383374bbc09f845268dd15
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_protocol_execution_record.json
+  bytes=13247
+  sha256=9f0f16c4f15063205ead0680480718a3c1cd8acb3b3c2731084132c135874901
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_training_history.json
+  bytes=258317
+  sha256=2bd8eab51123be2b48de2b7ef2004b171391cafbf388574c0935c69e1b6641f8
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_stdout.log
+  bytes=11153
+  sha256=bc925b9b32520768118f2eab271ec72e4f904865321746ef7fdf4431124a4bd3
+results\airsas_bunny20k\p6_complex_psf_field_deconv\p6_phaseA8MRN2R8E_stderr.log
+  bytes=1044
+  sha256=793a744802191b40360c5dce59fed7d6fb12ca4d5bd8b396bbaffb0785268bd1
+
+==================== MISSING ====================
+NONE
+
+==================== EXCLUDED ====================
+checkpoints (*.pt/*.pth/*.ckpt)
+PSF arrays
+prediction arrays
+large npy/npz
+training cache
+phaseA8MRN2R8E_work/checkpoints

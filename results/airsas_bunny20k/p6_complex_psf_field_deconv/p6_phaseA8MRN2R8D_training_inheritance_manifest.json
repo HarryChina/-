@@ -1,0 +1,77 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_H4_TRAINING_INHERITANCE_FROZEN",
+  "created": "2026-09-04T21:15:38.105882+08:00",
+  "split": {
+    "counts": {
+      "TRAIN": 140,
+      "VAL": 20,
+      "INTERNAL_TEST": 20
+    },
+    "SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+    "C4_role_closure": true
+  },
+  "blacklist": {
+    "unique": 136,
+    "SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+    "field_hits": 0,
+    "diagonal_hits": 0
+  },
+  "field_sampler": {
+    "sources_per_update": 4,
+    "queries_per_source": 8192,
+    "queries_per_shell": 2048,
+    "shells": [
+      "inside_R50",
+      "R50_to_R80",
+      "R80_to_R95",
+      "outside_R95"
+    ],
+    "pairs_per_update": 32768,
+    "sampler_seed": 20260916,
+    "C4_seed": 20260913,
+    "sample_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+    "sample_stream_match": true,
+    "sampler_artifact_SHA256": "6962460cb30a4d32b6b3106460506829bf27036e22a217b8f9d8eeed986baad1"
+  },
+  "diagonal_sampler": {
+    "pairs_per_update": 1024,
+    "new_RNG": false,
+    "stream_SHA256": "395bd3a0e85405db340aab23a0fce4f334b95bf6750b029bbb307b399db526ce"
+  },
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0002,
+    "betas": [
+      0.9,
+      0.99
+    ],
+    "weight_decay": 1e-06,
+    "scheduler": null
+  },
+  "budget_updates": 20000,
+  "VAL_checkpoint_interval": 500,
+  "early_stopping": false,
+  "VAL": {
+    "sources": 20,
+    "probes_per_source": 65536,
+    "coordinate_SHA256": "718c4152461367368be80e02408c18667da09b18dc5550327337ccc06c8fb24b"
+  },
+  "checkpoint_selection": {
+    "primary": "lowest pooled final-sym full complex NRMSE",
+    "secondary": "lowest max-column",
+    "tie_within": 1e-06,
+    "tie_break": "earlier update",
+    "TRAIN_diagonal_used": false,
+    "VAL_gain_used": false,
+    "INTERNAL_TEST_used": false,
+    "burned24_used": false
+  },
+  "future_access_order": [
+    "best H4 freeze",
+    "INTERNAL_TEST20",
+    "cancellation retest",
+    "burned24 development diagnostic"
+  ],
+  "burned24_role": "DEVELOPMENT_DIAGNOSTIC_ONLY",
+  "gate": "PASS"
+}

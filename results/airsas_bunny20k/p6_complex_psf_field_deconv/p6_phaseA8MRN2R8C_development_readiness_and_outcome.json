@@ -1,0 +1,82 @@
+{
+  "classification": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_IMPROVES_H2_BUT_NOT_READY",
+  "completed": "2026-09-04T20:39:44.945056+08:00",
+  "R8C_order": [
+    "D",
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "CANCEL3": false,
+  "READY3": false,
+  "H3_full_median": 0.06660179578093173,
+  "H2_full_median": 0.06661221680459492,
+  "H3_gain_max": 0.18721155057525807,
+  "H2_gain_max": 0.14848258760888638,
+  "outcome_case": "B",
+  "readiness": {
+    "READY": false,
+    "checks": {
+      "full_median": {
+        "value": 0.06660179578093173,
+        "rule": "<=",
+        "threshold": 0.06,
+        "gate": "FAIL"
+      },
+      "full_max": {
+        "value": 0.12139477236343238,
+        "rule": "<=",
+        "threshold": 0.1,
+        "gate": "FAIL"
+      },
+      "energy_median": {
+        "value": 0.01788038221192561,
+        "rule": "<=",
+        "threshold": 0.04,
+        "gate": "PASS"
+      },
+      "energy_max": {
+        "value": 0.05499024150929448,
+        "rule": "<=",
+        "threshold": 0.06,
+        "gate": "PASS"
+      },
+      "boundary_median": {
+        "value": 0.06634186330782878,
+        "rule": "<=",
+        "threshold": 0.1,
+        "gate": "PASS"
+      },
+      "boundary_max": {
+        "value": 0.12631352870541893,
+        "rule": "<=",
+        "threshold": 0.16,
+        "gate": "PASS"
+      },
+      "peak_max": {
+        "value": 0.0,
+        "rule": "<=",
+        "threshold": 1.0,
+        "gate": "PASS"
+      },
+      "center_gain_max": {
+        "value": 0.18721155057525807,
+        "rule": "<=",
+        "threshold": 0.02,
+        "gate": "FAIL"
+      }
+    },
+    "thresholds_unchanged": true,
+    "gate": "FAIL"
+  },
+  "strict_equalities": {
+    "H3m_equals_H2m": "not improvement",
+    "H3g_equals_H2g": "not improvement"
+  },
+  "interpretation_boundary": "H3 differs from H2 only by six deterministic SOURCE-LIKE boundary geometry features in the six H2-zero k3 slots; this remains development, not formal fresh validation.",
+  "post_hoc_feature_search": false,
+  "burned_driven_retraining": false,
+  "recommended_next": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION",
+  "gate": "PASS"
+}

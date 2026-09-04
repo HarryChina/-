@@ -1,0 +1,18 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_H3_EQUIVALENCE_PASS",
+  "created": "2026-09-04T21:15:37.687207+08:00",
+  "random_coordinate_pairs": 4096,
+  "diagonal_loss_disabled_for_comparison": true,
+  "H3_forward_bitwise_equal": true,
+  "max_normalized_forward_discrepancy": 0.0,
+  "threshold_max": 1e-07,
+  "H3_parameter_count": 414210,
+  "H4_parameter_count": 414210,
+  "H3_input_dimension": 165,
+  "H4_input_dimension": 165,
+  "architecture_unchanged": true,
+  "parameter_shapes_unchanged": true,
+  "state_dict_keys_identical": true,
+  "inference_formula_unchanged": "0.5*(A+B)",
+  "gate": "PASS"
+}

@@ -1,0 +1,52 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_R8E_OUTCOME_TRUTH_TABLE_EXHAUSTIVE",
+  "created": "2026-09-04T21:15:38.105882+08:00",
+  "ordered_case_priority": [
+    "D",
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "canonical_combination_count": 20,
+  "canonical_case_sequence": [
+    "D",
+    "D",
+    "D",
+    "D",
+    "A",
+    "A",
+    "A",
+    "A",
+    "B",
+    "E",
+    "E",
+    "E",
+    "C",
+    "C",
+    "C",
+    "C",
+    "E",
+    "E",
+    "E",
+    "E"
+  ],
+  "random_seed": 20261003,
+  "random_combination_count": 10000,
+  "total_combination_count": 10020,
+  "unclassified": 0,
+  "multi_classified": 0,
+  "classifier_predicate_mismatch": 0,
+  "exactly_one": 10020,
+  "case_counts": {
+    "D": 4976,
+    "A": 2570,
+    "B": 539,
+    "C": 1023,
+    "E": 912
+  },
+  "strict_equality_H4g_equals_H3g_is_improvement": false,
+  "strict_equality_H4m_equals_H3m_is_improvement": false,
+  "epsilon_added": false,
+  "gate": "PASS"
+}

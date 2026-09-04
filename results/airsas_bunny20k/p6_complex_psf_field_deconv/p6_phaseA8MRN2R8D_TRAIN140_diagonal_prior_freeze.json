@@ -1,0 +1,59 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_TRAIN140_DIAGONAL_PRIOR_FROZEN",
+  "created": "2026-09-04T21:14:36.722570+08:00",
+  "source_R8B_artifact": {
+    "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8B_TRAIN140_diagonal_prior_audit.json",
+    "SHA256": "a181930d190bf4b5b70c4287aaa026e879f62018772de16f66c9db471aa70c41"
+  },
+  "dependency_hashes": [
+    {
+      "name": "historical_anchor180_diagonal",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R1_DG_exact_diagonal_field.json",
+      "SHA256": "56850c8fe8966e6958cc04b76f3e7297aea1e37329cafaacb4526247438cb13b",
+      "hash_match": true
+    },
+    {
+      "name": "anchor180_manifest",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8M1_anchor_bank_final_manifest.json",
+      "SHA256": "7575367ee04a2c6f85e72e15f8f0a0b30d7f0b16fab2e5c220fca7f896ee4eb9",
+      "hash_match": true
+    },
+    {
+      "name": "frozen_140_20_20_split",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN1R_column_split.json",
+      "SHA256": "5dcd261b9169ec70bc0e7a57d6dde30bc16488ef2850ec0e781801bebf5438b2",
+      "hash_match": true
+    },
+    {
+      "name": "saved_TRAIN_only_diagonal_values",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2_train_statistics.json",
+      "SHA256": "4ec0ce588147ec21d954043211d3964190cca0aac588a5656e32bad285dec86d",
+      "hash_match": true
+    }
+  ],
+  "g_ref": 25912.966796875,
+  "TRAIN140_normalized_real_diagonal": {
+    "n": 140,
+    "min": 0.9979013282065966,
+    "median": 1.0,
+    "max": 1.0039199727995733,
+    "mean": 1.0003041404061261,
+    "std_population_ddof0": 0.001344764406703845,
+    "span_max_minus_min": 0.006018644592976741,
+    "max_abs_deviation_from_1": 0.003919972799573346
+  },
+  "TRAIN140_imag_diagonal_max_abs": 0.0,
+  "prior_statement": "AN_APPROXIMATELY_CONSTANT_NORMALIZED_DIAGONAL_PRIOR",
+  "target": {
+    "real": 1.0,
+    "imag": 0.0,
+    "source": "TRAIN140 normalized real diagonal median only"
+  },
+  "mathematically_exact_for_every_native_source_claimed": false,
+  "new_exact_off_lattice_label": false,
+  "VAL20_values_used": false,
+  "INTERNAL_TEST20_values_used": false,
+  "burned24_values_used": false,
+  "PSF_arrays_opened_in_R8D": false,
+  "gate": "PASS"
+}

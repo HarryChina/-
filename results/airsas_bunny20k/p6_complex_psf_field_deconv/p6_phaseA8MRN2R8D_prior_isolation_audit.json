@@ -1,0 +1,15 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_DIAGONAL_PRIOR_ISOLATION_PASS",
+  "created": "2026-09-04T21:14:36.723658+08:00",
+  "allowed_prior_evidence": "saved TRAIN140 diagonal statistics only",
+  "prior_target_source": "TRAIN140 median=1.0",
+  "VAL_diagonal_values_used": false,
+  "INTERNAL_TEST_diagonal_values_used": false,
+  "burned24_diagonal_values_used": false,
+  "target_error_based_q_selection": false,
+  "heldout_driven_lambda_selection": false,
+  "burned_driven_tuning": false,
+  "new_science_target_reads": 0,
+  "new_physics": 0,
+  "gate": "PASS"
+}

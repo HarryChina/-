@@ -1,0 +1,781 @@
+{
+  "classification": "P6_PHASEA8MRN2R8C_INTERNAL_TEST_COMPLETE",
+  "completed": "2026-09-04T20:39:11.617298+08:00",
+  "role": "C4_ORBIT_HELDOUT_DEVELOPMENT_TEST",
+  "best_freeze_SHA256": "65cddc2faa0a6ddac088c9e24d0c3d186ed653fb9bc21508f9adcd4437a9a194",
+  "first_access_timestamp": "2026-09-04T20:38:42.692669+08:00",
+  "access_after_best_freeze": true,
+  "ranking_contribution": 0,
+  "rows": [
+    {
+      "name": "A8M1_X060_Y060_Z000",
+      "source_index_xyz": [
+        60,
+        60,
+        0
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.06008379741112399,
+        "native_center_gain_relative_error": 0.0359256027823134,
+        "total_energy_relative_error": 0.031436353765339244,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          60,
+          60,
+          0
+        ],
+        "reference_peak_index_xyz": [
+          60,
+          60,
+          0
+        ],
+        "boundary_region_complex_NRMSE": 0.06080543075527622,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.405261899999914,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X089_Y060_Z000",
+      "source_index_xyz": [
+        89,
+        60,
+        0
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.060238807015746375,
+        "native_center_gain_relative_error": 0.019224429419604117,
+        "total_energy_relative_error": 0.03863893003786477,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          89,
+          60,
+          0
+        ],
+        "reference_peak_index_xyz": [
+          89,
+          60,
+          0
+        ],
+        "boundary_region_complex_NRMSE": 0.060609014690437724,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.4181164999999964,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X060_Y089_Z000",
+      "source_index_xyz": [
+        60,
+        89,
+        0
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.06007178906869378,
+        "native_center_gain_relative_error": 0.014680043606298794,
+        "total_energy_relative_error": 0.034743501546680704,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          60,
+          89,
+          0
+        ],
+        "reference_peak_index_xyz": [
+          60,
+          89,
+          0
+        ],
+        "boundary_region_complex_NRMSE": 0.060493508253533196,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3490045999997164,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X089_Y089_Z000",
+      "source_index_xyz": [
+        89,
+        89,
+        0
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.06109603917063861,
+        "native_center_gain_relative_error": 0.005688354422346598,
+        "total_energy_relative_error": 0.042459153888340956,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          89,
+          89,
+          0
+        ],
+        "reference_peak_index_xyz": [
+          89,
+          89,
+          0
+        ],
+        "boundary_region_complex_NRMSE": 0.061406911306638993,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.355713399999786,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X000_Y000_Z030",
+      "source_index_xyz": [
+        0,
+        0,
+        30
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.07084092214014827,
+        "native_center_gain_relative_error": 0.015431597119958127,
+        "total_energy_relative_error": 0.0005758112163327212,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          0,
+          0,
+          30
+        ],
+        "reference_peak_index_xyz": [
+          0,
+          0,
+          30
+        ],
+        "boundary_region_complex_NRMSE": 0.0704064661660561,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3616779999997561,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X149_Y000_Z030",
+      "source_index_xyz": [
+        149,
+        0,
+        30
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.06973631141015625,
+        "native_center_gain_relative_error": 0.016050581823409207,
+        "total_energy_relative_error": 0.0026329850082578315,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          149,
+          0,
+          30
+        ],
+        "reference_peak_index_xyz": [
+          149,
+          0,
+          30
+        ],
+        "boundary_region_complex_NRMSE": 0.06929057839188735,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3620654999999715,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X000_Y149_Z030",
+      "source_index_xyz": [
+        0,
+        149,
+        30
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.06845745522005633,
+        "native_center_gain_relative_error": 0.007972268455541647,
+        "total_energy_relative_error": 0.013766037053014777,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          0,
+          149,
+          30
+        ],
+        "reference_peak_index_xyz": [
+          0,
+          149,
+          30
+        ],
+        "boundary_region_complex_NRMSE": 0.0677564619049319,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3563013000002684,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X149_Y149_Z030",
+      "source_index_xyz": [
+        149,
+        149,
+        30
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.06721780845319814,
+        "native_center_gain_relative_error": 0.011015599940055056,
+        "total_energy_relative_error": 0.004796192406317835,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          149,
+          149,
+          30
+        ],
+        "reference_peak_index_xyz": [
+          149,
+          149,
+          30
+        ],
+        "boundary_region_complex_NRMSE": 0.06637895872174102,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3603155000000697,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X060_Y060_Z060",
+      "source_index_xyz": [
+        60,
+        60,
+        60
+      ],
+      "stratum": "interior",
+      "metrics": {
+        "full_complex_NRMSE": 0.044326111242343216,
+        "native_center_gain_relative_error": 0.02223242199770663,
+        "total_energy_relative_error": 0.012271837664683656,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          60,
+          60,
+          60
+        ],
+        "reference_peak_index_xyz": [
+          60,
+          60,
+          60
+        ],
+        "boundary_region_complex_NRMSE": 0.05005775167068746,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.364037400000143,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X089_Y060_Z060",
+      "source_index_xyz": [
+        89,
+        60,
+        60
+      ],
+      "stratum": "interior",
+      "metrics": {
+        "full_complex_NRMSE": 0.0437106885679636,
+        "native_center_gain_relative_error": 0.006565220332476522,
+        "total_energy_relative_error": 0.016236293280183025,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          89,
+          60,
+          60
+        ],
+        "reference_peak_index_xyz": [
+          89,
+          60,
+          60
+        ],
+        "boundary_region_complex_NRMSE": 0.05024716330790796,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.401523300000008,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X060_Y089_Z060",
+      "source_index_xyz": [
+        60,
+        89,
+        60
+      ],
+      "stratum": "interior",
+      "metrics": {
+        "full_complex_NRMSE": 0.04356593314811039,
+        "native_center_gain_relative_error": 0.0023280949877821154,
+        "total_energy_relative_error": 0.015845961737818458,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          60,
+          89,
+          60
+        ],
+        "reference_peak_index_xyz": [
+          60,
+          89,
+          60
+        ],
+        "boundary_region_complex_NRMSE": 0.04969765584211199,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3829540000001543,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X089_Y089_Z060",
+      "source_index_xyz": [
+        89,
+        89,
+        60
+      ],
+      "stratum": "interior",
+      "metrics": {
+        "full_complex_NRMSE": 0.04375581135195361,
+        "native_center_gain_relative_error": 0.008431539458221593,
+        "total_energy_relative_error": 0.019578114101120772,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          89,
+          89,
+          60
+        ],
+        "reference_peak_index_xyz": [
+          89,
+          89,
+          60
+        ],
+        "boundary_region_complex_NRMSE": 0.050150364644840725,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.5004957000001014,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X119_Y000_Z089",
+      "source_index_xyz": [
+        119,
+        0,
+        89
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.0550876654371855,
+        "native_center_gain_relative_error": 0.010634710098608132,
+        "total_energy_relative_error": 0.024215018749401605,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          119,
+          0,
+          89
+        ],
+        "reference_peak_index_xyz": [
+          119,
+          0,
+          89
+        ],
+        "boundary_region_complex_NRMSE": 0.05405664912334808,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3685761000001548,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X000_Y030_Z089",
+      "source_index_xyz": [
+        0,
+        30,
+        89
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.054046313800424815,
+        "native_center_gain_relative_error": 0.0021659603282582597,
+        "total_energy_relative_error": 0.015416342761281687,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          0,
+          30,
+          89
+        ],
+        "reference_peak_index_xyz": [
+          0,
+          30,
+          89
+        ],
+        "boundary_region_complex_NRMSE": 0.053065610116983394,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.424365299999863,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X149_Y119_Z089",
+      "source_index_xyz": [
+        149,
+        119,
+        89
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.053947696933125996,
+        "native_center_gain_relative_error": 0.0033909834455302782,
+        "total_energy_relative_error": 0.011290637095999439,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          149,
+          119,
+          89
+        ],
+        "reference_peak_index_xyz": [
+          149,
+          119,
+          89
+        ],
+        "boundary_region_complex_NRMSE": 0.05278952059529994,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.5278134000000136,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X030_Y149_Z089",
+      "source_index_xyz": [
+        30,
+        149,
+        89
+      ],
+      "stratum": "single-boundary",
+      "metrics": {
+        "full_complex_NRMSE": 0.05446495745726873,
+        "native_center_gain_relative_error": 0.027440832942815345,
+        "total_energy_relative_error": 0.0024866310961639947,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          30,
+          149,
+          89
+        ],
+        "reference_peak_index_xyz": [
+          30,
+          149,
+          89
+        ],
+        "boundary_region_complex_NRMSE": 0.05348695183927761,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.35095900000033,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X119_Y000_Z119",
+      "source_index_xyz": [
+        119,
+        0,
+        119
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.05888998136046836,
+        "native_center_gain_relative_error": 0.008074729384980337,
+        "total_energy_relative_error": 0.03454636766274422,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          119,
+          0,
+          119
+        ],
+        "reference_peak_index_xyz": [
+          119,
+          0,
+          119
+        ],
+        "boundary_region_complex_NRMSE": 0.0591103490715322,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3674622000003183,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X000_Y030_Z119",
+      "source_index_xyz": [
+        0,
+        30,
+        119
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.05866662405451205,
+        "native_center_gain_relative_error": 0.005467754755295115,
+        "total_energy_relative_error": 0.027214707779213827,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          0,
+          30,
+          119
+        ],
+        "reference_peak_index_xyz": [
+          0,
+          30,
+          119
+        ],
+        "boundary_region_complex_NRMSE": 0.05872616275247879,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3964986000000863,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X149_Y119_Z119",
+      "source_index_xyz": [
+        149,
+        119,
+        119
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.05820503883753998,
+        "native_center_gain_relative_error": 0.002973569611390598,
+        "total_energy_relative_error": 0.023935799821058847,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          149,
+          119,
+          119
+        ],
+        "reference_peak_index_xyz": [
+          149,
+          119,
+          119
+        ],
+        "boundary_region_complex_NRMSE": 0.058201384977365184,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3484028000002581,
+      "prediction_saved": false
+    },
+    {
+      "name": "A8M1_X030_Y149_Z119",
+      "source_index_xyz": [
+        30,
+        149,
+        119
+      ],
+      "stratum": "multi-boundary/corner",
+      "metrics": {
+        "full_complex_NRMSE": 0.05828865270311906,
+        "native_center_gain_relative_error": 0.03104386152866511,
+        "total_energy_relative_error": 0.018921555880369662,
+        "peak_location_error_voxels": 0.0,
+        "candidate_peak_index_xyz": [
+          30,
+          149,
+          119
+        ],
+        "reference_peak_index_xyz": [
+          30,
+          149,
+          119
+        ],
+        "boundary_region_complex_NRMSE": 0.058484488240844054,
+        "boundary_shell_width_voxels": 30
+      },
+      "prediction_seconds": 1.3389915999996447,
+      "prediction_saved": false
+    }
+  ],
+  "summary": {
+    "pooled": {
+      "full_complex_NRMSE": {
+        "n": 20,
+        "median": 0.058477638378815554,
+        "max": 0.07084092214014827,
+        "min": 0.04356593314811039
+      },
+      "native_center_gain_relative_error": {
+        "n": 20,
+        "median": 0.009533124778414863,
+        "max": 0.0359256027823134,
+        "min": 0.0021659603282582597
+      },
+      "total_energy_relative_error": {
+        "n": 20,
+        "median": 0.017578924580276344,
+        "max": 0.042459153888340956,
+        "min": 0.0005758112163327212
+      },
+      "peak_location_error_voxels": {
+        "n": 20,
+        "median": 0.0,
+        "max": 0.0,
+        "min": 0.0
+      },
+      "boundary_region_complex_NRMSE": {
+        "n": 20,
+        "median": 0.05860532549666142,
+        "max": 0.0704064661660561,
+        "min": 0.04969765584211199
+      }
+    },
+    "strata": {
+      "interior": {
+        "full_complex_NRMSE": {
+          "n": 4,
+          "median": 0.0437332499599586,
+          "max": 0.044326111242343216,
+          "min": 0.04356593314811039
+        },
+        "native_center_gain_relative_error": {
+          "n": 4,
+          "median": 0.007498379895349057,
+          "max": 0.02223242199770663,
+          "min": 0.0023280949877821154
+        },
+        "total_energy_relative_error": {
+          "n": 4,
+          "median": 0.01604112750900074,
+          "max": 0.019578114101120772,
+          "min": 0.012271837664683656
+        },
+        "peak_location_error_voxels": {
+          "n": 4,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 4,
+          "median": 0.05010405815776409,
+          "max": 0.05024716330790796,
+          "min": 0.04969765584211199
+        }
+      },
+      "multi-boundary/corner": {
+        "full_complex_NRMSE": {
+          "n": 8,
+          "median": 0.06305389490683325,
+          "max": 0.07084092214014827,
+          "min": 0.05820503883753998
+        },
+        "native_center_gain_relative_error": {
+          "n": 8,
+          "median": 0.009545164662517695,
+          "max": 0.03104386152866511,
+          "min": 0.002973569611390598
+        },
+        "total_energy_relative_error": {
+          "n": 8,
+          "median": 0.01634379646669222,
+          "max": 0.03454636766274422,
+          "min": 0.0005758112163327212
+        },
+        "peak_location_error_voxels": {
+          "n": 8,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 8,
+          "median": 0.06274465389663661,
+          "max": 0.0704064661660561,
+          "min": 0.058201384977365184
+        }
+      },
+      "single-boundary": {
+        "full_complex_NRMSE": {
+          "n": 8,
+          "median": 0.05757972725293964,
+          "max": 0.06109603917063861,
+          "min": 0.053947696933125996
+        },
+        "native_center_gain_relative_error": {
+          "n": 8,
+          "median": 0.012657376852453463,
+          "max": 0.0359256027823134,
+          "min": 0.0021659603282582597
+        },
+        "total_energy_relative_error": {
+          "n": 8,
+          "median": 0.027825686257370426,
+          "max": 0.042459153888340956,
+          "min": 0.0024866310961639947
+        },
+        "peak_location_error_voxels": {
+          "n": 8,
+          "median": 0.0,
+          "max": 0.0,
+          "min": 0.0
+        },
+        "boundary_region_complex_NRMSE": {
+          "n": 8,
+          "median": 0.05727507868844064,
+          "max": 0.061406911306638993,
+          "min": 0.05278952059529994
+        }
+      }
+    }
+  },
+  "raw_branch_summary": {
+    "final_symmetrized_NRMSE": {
+      "n": 20,
+      "median": 0.058477638378815554,
+      "max": 0.07084092214014827,
+      "min": 0.04356593314811039,
+      "mean": 0.057234920239188844
+    },
+    "raw_branch_A_NRMSE": {
+      "n": 20,
+      "median": 0.06150276514167131,
+      "max": 0.07219569525382082,
+      "min": 0.04964242510907687,
+      "mean": 0.06062982732604544
+    },
+    "raw_branch_B_NRMSE": {
+      "n": 20,
+      "median": 0.061016891948800875,
+      "max": 0.07647779220888579,
+      "min": 0.044080581541351825,
+      "mean": 0.06023465205630257
+    },
+    "raw_branch_disagreement": {
+      "n": 20,
+      "median": 0.036653915732196465,
+      "max": 0.049791855036241,
+      "min": 0.03492688368129197,
+      "mean": 0.03875525147323318
+    },
+    "error_cosine": {
+      "n": 20,
+      "median": 0.8073808829782687,
+      "max": 0.8328123707116855,
+      "min": 0.7064053460859587,
+      "mean": 0.79029075915844
+    },
+    "cancellation_ratio": {
+      "n": 20,
+      "median": 0.9506500391155019,
+      "max": 0.9572938347556892,
+      "min": 0.9238878465516228,
+      "mean": 0.9461185270101373
+    }
+  },
+  "raw_branch_metrics_path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_INTERNAL_TEST_raw_branch_metrics.json",
+  "raw_branch_metrics_SHA256": "03452b9b4bff79c696904da1eac3f7927930fe2e4c19f4bd814dbc7d57112606",
+  "runtime": {
+    "n": 20,
+    "total_seconds": 27.740536100000554,
+    "seconds_per_PSF": {
+      "n": 20,
+      "median": 1.3657498000002306,
+      "max": 1.5278134000000136,
+      "min": 1.3389915999996447,
+      "mean": 1.3870268050000276
+    }
+  },
+  "gate": "PASS"
+}

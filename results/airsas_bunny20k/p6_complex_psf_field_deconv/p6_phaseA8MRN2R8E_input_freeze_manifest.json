@@ -1,0 +1,246 @@
+{
+  "classification": "P6_PHASEA8MRN2R8E_R8D_INPUT_HARD_FREEZE_PASS",
+  "created": "2026-09-04T23:17:39.338845+08:00",
+  "R8D_precheck": "PASS",
+  "R8D_terminal_classification": "P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTERED",
+  "R8E_execution_ready": true,
+  "R8C_outcome_case": "B",
+  "CANCEL3": false,
+  "READY3": false,
+  "R8D_artifact_count": 18,
+  "R8D_packaged_artifact_count": 18,
+  "H4_source_SHA256": "a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53",
+  "H4_source_SHA_match": true,
+  "H3_source_SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+  "H3_source_SHA_match": true,
+  "science_optimizer_updates_before_R8E": 0,
+  "H4_previous_science_training": false,
+  "checkpoint_inference": 0,
+  "fresh30_selected": 0,
+  "fresh30_accessed": 0,
+  "operator_cases": 0,
+  "new_exact_physics": 0,
+  "artifacts": [
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\docs\\P6_PHASEA8MRN2R8D_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_PREREGISTRATION.md",
+      "bytes": 6500,
+      "SHA256": "5a3c52e7ba6238b2a0ec9eb1023fc5d565b22e8c7dafd7870968463ce8ccda70",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_status.json",
+      "bytes": 1237,
+      "SHA256": "36116002b078ea64eec2cd327a3c961aa4441db7bc394fe3f7215bd8f3628d73",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_summary.json",
+      "bytes": 5824,
+      "SHA256": "3fa136f14ba81a6ceb2b7d2aebbb7aab39366c607037a8480d1260473a709218",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_protocol.json",
+      "bytes": 1633,
+      "SHA256": "8fc745231b5aa570d030ece7fcfb65b1ebb1f3abf877ec40e2e74174baca199c",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_R8C_freeze_manifest.json",
+      "bytes": 6077,
+      "SHA256": "78ca74fa650bcdb5739c8e04274412af2c1299f2acd52a755634a91d22d5390c",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_scientific_rationale.json",
+      "bytes": 1054,
+      "SHA256": "96a8097f51aea49167f1660ca5b91096329c3aaf01578bf472dfdd9c492b9dd3",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_H3_mechanism_postmortem.json",
+      "bytes": 3673,
+      "SHA256": "05f0f79ad79e1d142a7521b1bb3418bb17a76264b1b44c109a83ec54c2a5e008",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_TRAIN140_diagonal_prior_freeze.json",
+      "bytes": 2496,
+      "SHA256": "d48d2362d8826437a71d3e917bc281a6ba1bccdf5d424efd9805a6f2297f41e6",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_prior_isolation_audit.json",
+      "bytes": 574,
+      "SHA256": "b3e02f1cdd34a2434cc0667cfb3f66a06a6fae314826b9b0cfc657d73e6a94e9",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_H4_model_spec.json",
+      "bytes": 2838,
+      "SHA256": "4be2ede4481e89995a02cdb60ee88bde4d77a9952b9cde669ce8e05924618687",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_diagonal_coordinate_spec.json",
+      "bytes": 3656,
+      "SHA256": "8417028db5bf79f6a42e34cc0c9d6f5f1628e98c7f26dafaab9429ca45d6a384",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_diagonal_coordinate_coverage_audit.json",
+      "bytes": 1108,
+      "SHA256": "ebe5e092a819108aa2e395c6a9ffdce9bb6fe85ca406526fc298e430024f5338",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_diagonal_stream_freeze.json",
+      "bytes": 1085,
+      "SHA256": "779c3106a9858e85b6f6fb5e149a5ee0047c2c85d38cb9e8c4ac948fbb7d8b4c",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_loss_spec.json",
+      "bytes": 1155,
+      "SHA256": "dab257ad014f3383a8356d6a5606a1bdc9ef49eb55d5a389ac7a1c2e426e6776",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_H3_equivalence_audit.json",
+      "bytes": 617,
+      "SHA256": "4c72f47c535ff4e8daf699de27e73de39e2f484847e94b9d325ff0932bb023ce",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_training_inheritance_manifest.json",
+      "bytes": 2210,
+      "SHA256": "ef5992e37462642bb5abd80278788ad84b8617a943096804d905871f40532cab",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_R8E_outcome_protocol.json",
+      "bytes": 2578,
+      "SHA256": "debd6e7a485c1571c6ba1f8ba07cbdec440fa40bbe44e92b79294d013f6f2368",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_outcome_truth_table_audit.json",
+      "bytes": 974,
+      "SHA256": "7e22317811f72bfae8261213ea81ea4049ad7106974880a294782532369b8747",
+      "packaged_in_R8D_submission": true,
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "R8D_H4_FROZEN_SOURCE",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8D_diagonal_gain_consistency_model.py",
+      "bytes": 2028,
+      "SHA256": "a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53",
+      "expected_SHA256": "a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53",
+      "read_only_after_freeze": true
+    },
+    {
+      "authority": "H3_PARENT_FROZEN_SOURCE",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+      "bytes": 4935,
+      "SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+      "expected_SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+      "read_only_after_freeze": true
+    }
+  ],
+  "science_identity": {
+    "candidate": "H4_H3_TRAIN140_DENSE_UNIT_DIAGONAL_CONSISTENCY_LAMBDA0P1",
+    "parent": "H3",
+    "parameter_count": 414210,
+    "input_dimension": 165,
+    "model_seed": 20260909,
+    "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+    "boundary_features": [
+      "px",
+      "py",
+      "pz",
+      "pxy",
+      "pxz",
+      "pyz"
+    ],
+    "boundary_slots": [
+      60,
+      76,
+      92,
+      68,
+      84,
+      100
+    ],
+    "source_z_k2_zero": true,
+    "source_k4_to_k7_zero": true,
+    "output_absolute_k": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "relative_displacement_k": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "split": [
+      140,
+      20,
+      20
+    ],
+    "split_SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+    "blacklist_unique": 136,
+    "blacklist_SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+    "field_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+    "diagonal_stream_SHA256": "395bd3a0e85405db340aab23a0fce4f334b95bf6750b029bbb307b399db526ce",
+    "lambda_diag": 0.1,
+    "g_ref": 25912.966796875
+  },
+  "gate": "PASS"
+}

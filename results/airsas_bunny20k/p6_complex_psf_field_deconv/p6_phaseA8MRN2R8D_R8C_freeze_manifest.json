@@ -1,0 +1,129 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_R8C_HARD_FREEZE_PASS",
+  "created": "2026-09-04T21:14:36.716525+08:00",
+  "R8C_read_only_after_freeze": true,
+  "authority_file_count": 18,
+  "authority_files": [
+    {
+      "path": "F:\\psf模糊核\\docs\\P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_DEVELOPMENT.md",
+      "bytes": 2660,
+      "SHA256": "fd375baa286072c2dc799cabadbaf7c2909ca18da395c27fc7bd02bfc2221828",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_status.json",
+      "bytes": 3534,
+      "SHA256": "94ff4d21a338b86c4f164ebd8a8d3267839ad2c1cbfaca3b1c9e1aae36fd96df",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_summary.json",
+      "bytes": 35283,
+      "SHA256": "5e876af2e25ea8e9d7165406480428e45e696acba896c559b661132d5c3fe459",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_protocol_execution_record.json",
+      "bytes": 11774,
+      "SHA256": "e53d3e409a0453564a1096f8c14766ad66e8c312aca8d2c5fded2175f5f37612",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_input_freeze_manifest.json",
+      "bytes": 10024,
+      "SHA256": "d1b3aff2cd05fa01f3f3f4d120ad1d0a6a71bb848973dd64b671dce98d946fab",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_execution_freeze_manifest.json",
+      "bytes": 7952,
+      "SHA256": "e66a0c70c04c57d0e1df52c56aefff75d5ff45257544ebc73e2e7cbaa081e1ef",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_H3_model_runtime_audit.json",
+      "bytes": 2384,
+      "SHA256": "d73cde55efd50c74301daed26b62f917983bb111893b2d9e0f80691eee8a4461",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_boundary_feature_runtime_audit.json",
+      "bytes": 2644,
+      "SHA256": "716cb0df98fe194de50fa6e686f8d2656ebe7868df6d19da02e63bfae060294d",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_sample_stream_audit.json",
+      "bytes": 760,
+      "SHA256": "433d64117ab85be68d91794638385aa4023ab3b11de93f3d7df5fb5f3561a903",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_training_history.json",
+      "bytes": 257887,
+      "SHA256": "968757b381bdf0a519f94f05fa2d949366527d5ca667e8d618457e1a4233a60b",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_H3_best_checkpoint_freeze.json",
+      "bytes": 1541,
+      "SHA256": "65cddc2faa0a6ddac088c9e24d0c3d186ed653fb9bc21508f9adcd4437a9a194",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_INTERNAL_TEST_metrics.json",
+      "bytes": 22003,
+      "SHA256": "f06033f5e27f1ef6cf68b5c4bc437c84d3b08241c338e58c016561fbca1d40ab",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_cancellation_retest.json",
+      "bytes": 917,
+      "SHA256": "fecc8b9432d9e624a21f7e189544d3d062337af084ea4060a6338e20e2719e8b",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_burned24_metrics.json",
+      "bytes": 28132,
+      "SHA256": "15251d506f85ca0bfb355f9b90cf6aad986cf01ed139b67b7308b7837e9f429c",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_burned24_strata.json",
+      "bytes": 5711,
+      "SHA256": "828c844eed4f81a545b818373ba2966f7f660552157c3a30493dd749ee69336c",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_boundary_controlled_comparison.json",
+      "bytes": 4102,
+      "SHA256": "6149b4ca7ec98c7b6fcaeed7187ac94d79e5f2e75c3669f06ad6dcf3412ee49f",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_gain_controlled_comparison.json",
+      "bytes": 2500,
+      "SHA256": "6f77f2c28ec1ad3f870037053e99ed1e84e173db678ca9f3271c8b38c03a4975",
+      "package_copy_verified": true
+    },
+    {
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8C_development_readiness_and_outcome.json",
+      "bytes": 2260,
+      "SHA256": "674e15999a8f97b17e1ac7987b5a6a03f1a5ede5dd000a4dd40a8de961f9850b",
+      "package_copy_verified": true
+    }
+  ],
+  "prior_submission_manifest_JSON_SHA256": "064570eb3d112a7b2fbd030555db4c5d6853f2a1b947adb92618905b6a4c05f9",
+  "prior_submission_manifest_TXT_SHA256": "e3345fbdcf493a54b63788ca9d90c83b7d88a341a79a4eca0238f1510d60784b",
+  "status": "FINALIZED",
+  "completed_updates": 20000,
+  "classification_frozen": "P6_PHASEA8MRN2R8C_BOUNDARY_AWARE_SOURCE_CONDITIONING_IMPROVES_H2_BUT_NOT_READY",
+  "outcome_case": "B",
+  "CANCEL3": false,
+  "READY3": false,
+  "sample_stream_match": true,
+  "fresh30": "0/0",
+  "operator_cases": 0,
+  "new_physics": 0,
+  "gate": "PASS"
+}

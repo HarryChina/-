@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "F:\psfÄ£ºýºË\scripts\p6_phaseA8MRN2R8E_H4_development.py", line 1643, in <module>
+    main()
+  File "F:\psfÄ£ºýºË\scripts\p6_phaseA8MRN2R8E_H4_development.py", line 1625, in main
+    result = run(args.resume, device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\psfÄ£ºýºË\scripts\p6_phaseA8MRN2R8E_H4_development.py", line 1611, in run
+    training = train_h4(device, roles, blocked, stats, train_maps, shells, val_cache, tracker, resume_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\psfÄ£ºýºË\scripts\p6_phaseA8MRN2R8E_H4_development.py", line 817, in train_h4
+    r3.require(all(parameter.grad is None or bool(torch.isfinite(parameter.grad).all()) for parameter in model.parameters()), f"Nonfinite H4 gradient at update {update}")
+  File "F:\psfÄ£ºýºË\scripts\p6_phaseA8MRN2R3_H0_development.py", line 163, in require
+    raise RuntimeError(message)
+RuntimeError: Nonfinite H4 gradient at update 18066

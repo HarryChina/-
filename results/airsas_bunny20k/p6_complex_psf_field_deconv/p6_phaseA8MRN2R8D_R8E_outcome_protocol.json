@@ -1,0 +1,74 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_R8E_OUTCOME_PROTOCOL_FROZEN",
+  "created": "2026-09-04T21:15:38.105882+08:00",
+  "cancellation_gate": {
+    "CANCEL4_true_iff_all": [
+      "final INTERNAL median<=0.08",
+      "raw_mean/final>=1.5",
+      "error cosine<=-0.25"
+    ],
+    "unchanged": true
+  },
+  "readiness_gate": {
+    "full_median_max": 0.06,
+    "full_max_max": 0.1,
+    "energy_median_max": 0.04,
+    "energy_max_max": 0.06,
+    "boundary_median_max": 0.1,
+    "boundary_max_max": 0.16,
+    "peak_max_max": 1,
+    "gain_max_max": 0.02,
+    "READY4_true_iff_all_pass": true,
+    "unchanged": true
+  },
+  "primary_parent_baseline": {
+    "H3_burned_full_median": 0.06660179578093173,
+    "H3_burned_gain_max": 0.18721155057525807
+  },
+  "ordered_tree": [
+    {
+      "step": 1,
+      "case": "D",
+      "condition": "CANCEL4=true",
+      "classification": "P6_PHASEA8MRN2R8E_DIAGONAL_CONSISTENCY_REINTRODUCES_CANCELLATION",
+      "recommended_next": "P6_PHASEA8MRN2R8EI_IMPLEMENTATION_AND_OBJECTIVE_REASSESSMENT"
+    },
+    {
+      "step": 2,
+      "case": "A",
+      "condition": "CANCEL4=false AND READY4=true",
+      "classification": "P6_PHASEA8MRN2R8E_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_DEVELOPMENT_PASS",
+      "recommended_next": "P6_PHASEA8MRN3_DIRECT_IMPLICIT_COMPLEX_PSF_FIELD_FREEZE_AND_FRESH30_PREREGISTRATION"
+    },
+    {
+      "step": 3,
+      "case": "B",
+      "condition": "CANCEL4=false AND READY4=false AND H4g<H3g AND H4m<H3m",
+      "classification": "P6_PHASEA8MRN2R8E_DIAGONAL_CONSISTENCY_IMPROVES_GAIN_AND_FULL_BUT_NOT_READY",
+      "recommended_next": "P6_PHASEA8MRN2R8F_RESIDUAL_OUTLIER_MECHANISM_PREREGISTRATION"
+    },
+    {
+      "step": 4,
+      "case": "C",
+      "condition": "CANCEL4=false AND READY4=false AND H4g<H3g AND H4m>=H3m",
+      "classification": "P6_PHASEA8MRN2R8E_DIAGONAL_CONSISTENCY_IMPROVES_GAIN_WITH_FIELD_TRADEOFF",
+      "recommended_next": "P6_PHASEA8MRN2R8F_RESIDUAL_OUTLIER_MECHANISM_PREREGISTRATION"
+    },
+    {
+      "step": 5,
+      "case": "E",
+      "condition": "otherwise",
+      "classification": "P6_PHASEA8MRN2R8E_TRAIN_ONLY_DIAGONAL_GAIN_CONSISTENCY_NO_CONTROLLED_GAIN",
+      "recommended_next": "P6_PHASEA8MRN2R8F_GAIN_PRIOR_AND_FIELD_COUPLING_REASSESSMENT"
+    }
+  ],
+  "strict_comparison_no_epsilon": true,
+  "H4g_equal_H3g_counts_as_improvement": false,
+  "H4m_equal_H3m_counts_as_improvement": false,
+  "truth_table_audit": {
+    "canonical": 20,
+    "random": 10000,
+    "exactly_one": 10020
+  },
+  "gate": "PASS"
+}

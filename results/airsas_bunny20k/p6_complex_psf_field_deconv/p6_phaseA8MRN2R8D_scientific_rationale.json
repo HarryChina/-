@@ -1,0 +1,16 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_SCIENTIFIC_RATIONALE_FROZEN",
+  "created": "2026-09-04T21:15:38.105882+08:00",
+  "R8C_formal_outcome": "CASE B",
+  "parent_choice": "H3",
+  "parent_choice_reason": "H3 is the formal R8C candidate and improved VAL, INTERNAL full, and burned energy; post-hoc fallback to H2 is prohibited.",
+  "why_not_continue_boundary_feature_sweep": "H3 improved energy strongly and passed energy/boundary/peak gates, but full median improved only 0.0156%; full max, corner, and gain worsened. Another boundary-feature sweep would not isolate the remaining center-gain mechanism.",
+  "remaining_mechanism": "center-gain/full residual after boundary-aware conditioning",
+  "unique_candidate": "H4_H3_TRAIN140_DENSE_UNIT_DIAGONAL_CONSISTENCY_LAMBDA0P1",
+  "unique_science_change": "TRAIN140-derived approximate dense unit-diagonal consistency with lambda=0.1",
+  "architecture_change": false,
+  "new_exact_physics": 0,
+  "gain_weight_sweep": false,
+  "post_hoc_inference_renormalization": false,
+  "gate": "PASS"
+}

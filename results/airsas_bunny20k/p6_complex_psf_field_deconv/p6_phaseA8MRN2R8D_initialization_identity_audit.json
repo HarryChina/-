@@ -1,0 +1,14 @@
+{
+  "classification": "P6_PHASEA8MRN2R8D_H4_INITIALIZATION_IDENTITY_PASS",
+  "created": "2026-09-04T21:15:37.687207+08:00",
+  "model_seed": 20260909,
+  "H3_fresh_initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "H4_fresh_initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "expected_initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "initial_state_SHA_identity": true,
+  "fresh_initialization_required": true,
+  "H3_best_checkpoint_warm_start": false,
+  "H2_checkpoint_warm_start": false,
+  "trained_model_loaded_as_initialization": false,
+  "gate": "PASS"
+}

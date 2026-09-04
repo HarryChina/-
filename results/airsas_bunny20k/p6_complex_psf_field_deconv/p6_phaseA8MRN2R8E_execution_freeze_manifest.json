@@ -1,0 +1,204 @@
+{
+  "classification": "P6_PHASEA8MRN2R8E_EXECUTION_SOURCE_FREEZE_PASS",
+  "created": "2026-09-04T23:17:39.909425+08:00",
+  "formal_lineage_id": "ae1a3345-b842-4b2d-bff2-8583d91c1dd0",
+  "CommandLine": "\"C:\\Users\\Harry\\.conda\\envs\\pytorch\\python.exe\" \"F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8E_H4_development.py\" --run --device cuda",
+  "sources": [
+    {
+      "role": "p6_phaseA8MRN2R8E_H4_development.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8E_H4_development.py",
+      "bytes": 96653,
+      "SHA256": "4589f8d947c9715437eb96d1b3f9548fe4203bb66bce356ac02c4c2abc0f2c5d",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "monitor_p6_phaseA8MRN2R8E.ps1",
+      "path": "F:\\psf模糊核\\scripts\\monitor_p6_phaseA8MRN2R8E.ps1",
+      "bytes": 8454,
+      "SHA256": "3a6f661e6f4f761db890ba6935f1bd270aa0c975a46ffe5c305a110c0a1e7ec7",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_diagonal_gain_consistency_model.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8D_diagonal_gain_consistency_model.py",
+      "bytes": 2028,
+      "SHA256": "a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8B_boundary_aware_source_model.py",
+      "bytes": 4935,
+      "SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_a8mrn1_direct_implicit_models.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_a8mrn1_direct_implicit_models.py",
+      "bytes": 7176,
+      "SHA256": "8c18769dd203cc14899dc942bf9b9d25d93aaa9eb7570c3a10998349259d19d2",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R3_H0_development.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R3_H0_development.py",
+      "bytes": 68702,
+      "SHA256": "8057ca000accc6483761e5d0d2f762c1e7c93410d82588d021a3bd0d27bd75ea",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_preregister.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R8D_preregister.py",
+      "bytes": 69302,
+      "SHA256": "f224243b7f3a8591b8ed9fc7d9ce01bcf15306fa345216526fd0843ce764996e",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_protocol.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_protocol.json",
+      "bytes": 1633,
+      "SHA256": "8fc745231b5aa570d030ece7fcfb65b1ebb1f3abf877ec40e2e74174baca199c",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_loss_spec.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_loss_spec.json",
+      "bytes": 1155,
+      "SHA256": "dab257ad014f3383a8356d6a5606a1bdc9ef49eb55d5a389ac7a1c2e426e6776",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_diagonal_coordinate_spec.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_diagonal_coordinate_spec.json",
+      "bytes": 3656,
+      "SHA256": "8417028db5bf79f6a42e34cc0c9d6f5f1628e98c7f26dafaab9429ca45d6a384",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_diagonal_stream_freeze.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_diagonal_stream_freeze.json",
+      "bytes": 1085,
+      "SHA256": "779c3106a9858e85b6f6fb5e149a5ee0047c2c85d38cb9e8c4ac948fbb7d8b4c",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_TRAIN140_diagonal_prior_freeze.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_TRAIN140_diagonal_prior_freeze.json",
+      "bytes": 2496,
+      "SHA256": "d48d2362d8826437a71d3e917bc281a6ba1bccdf5d424efd9805a6f2297f41e6",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R8D_R8E_outcome_protocol.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN2R8D_R8E_outcome_protocol.json",
+      "bytes": 2578,
+      "SHA256": "debd6e7a485c1571c6ba1f8ba07cbdec440fa40bbe44e92b79294d013f6f2368",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2_development.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2_development.py",
+      "bytes": 82234,
+      "SHA256": "7acf73fde738fe438731c2d569a54b78e334b28c8f7affe0b41338313fc5c49a",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN2R1_diagnostic.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MRN2R1_diagnostic.py",
+      "bytes": 74338,
+      "SHA256": "ba9c046a37e4141995c9ba03bf43acb974214e8acfc4e81dc919de8bd97e1f05",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_a8mrn2_frozen_helpers.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_a8mrn2_frozen_helpers.py",
+      "bytes": 7020,
+      "SHA256": "eaf3b0935d61c889d5cc021ec5a4a865570d46c3e03e73f313efb8c71c7f5812",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_a8m1_validation.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_a8m1_validation.py",
+      "bytes": 7508,
+      "SHA256": "a1ebdd5fa4b633f5c5fb19b3c185eecdab550374deb292de967355f4977bfb87",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MR_reassess.py",
+      "path": "F:\\psf模糊核\\scripts\\p6_phaseA8MR_reassess.py",
+      "bytes": 58983,
+      "SHA256": "b7939c7eff708a227d138996b4f97dabf82f218cc17dc456a3fca7a8816271e0",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN1R_column_split.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN1R_column_split.json",
+      "bytes": 82684,
+      "SHA256": "5dcd261b9169ec70bc0e7a57d6dde30bc16488ef2850ec0e781801bebf5438b2",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN1R_C4_closed_blacklist.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN1R_C4_closed_blacklist.json",
+      "bytes": 7650,
+      "SHA256": "6b292954a57e950bf7cc7d4402f77140d32d4d099f5a258d9539ae00d54c7b2d",
+      "read_only_after_freeze": true
+    },
+    {
+      "role": "p6_phaseA8MRN1R_VAL_probe_coordinates.json",
+      "path": "F:\\psf模糊核\\results\\airsas_bunny20k\\p6_complex_psf_field_deconv\\p6_phaseA8MRN1R_VAL_probe_coordinates.json",
+      "bytes": 5758373,
+      "SHA256": "4cb0a1e98559c19de787bf6d028adf311176952b18b801f70b97c73cd251cb8d",
+      "read_only_after_freeze": true
+    }
+  ],
+  "worker_SHA256": "4589f8d947c9715437eb96d1b3f9548fe4203bb66bce356ac02c4c2abc0f2c5d",
+  "monitor_SHA256": "3a6f661e6f4f761db890ba6935f1bd270aa0c975a46ffe5c305a110c0a1e7ec7",
+  "H4_helper_SHA256": "a05996652c19b30d084d92b57942fdbbfe44abef93987a42f8517346dba79c53",
+  "H3_parent_source_SHA256": "896efe8b7bc4e73a93450e5e6978efdfc46bbc50482bdc2d4ae17aceb8f7c2f2",
+  "R8D_protocol_SHA256": "8fc745231b5aa570d030ece7fcfb65b1ebb1f3abf877ec40e2e74174baca199c",
+  "loss_spec_SHA256": "dab257ad014f3383a8356d6a5606a1bdc9ef49eb55d5a389ac7a1c2e426e6776",
+  "coordinate_spec_SHA256": "8417028db5bf79f6a42e34cc0c9d6f5f1628e98c7f26dafaab9429ca45d6a384",
+  "field_sampler_helper_SHA256": "eaf3b0935d61c889d5cc021ec5a4a865570d46c3e03e73f313efb8c71c7f5812",
+  "metric_helper_SHA256": "a1ebdd5fa4b633f5c5fb19b3c185eecdab550374deb292de967355f4977bfb87",
+  "split_SHA256": "29900f4738d26f36893d3ebb5aae795b32d5836888a267c4bee98d440372a9ac",
+  "blacklist_SHA256": "0a733fd0328cd30377a4faf1a78432698da8a96f9c41476e6d233a39dc24754f",
+  "VAL_probe_SHA256": "718c4152461367368be80e02408c18667da09b18dc5550327337ccc06c8fb24b",
+  "field_stream_SHA256": "6639bcac3bb9c5efce5d43c5fb5e784e8f8a67a4c99cc75559c967369e57a7e2",
+  "diagonal_stream_SHA256": "395bd3a0e85405db340aab23a0fce4f334b95bf6750b029bbb307b399db526ce",
+  "initial_state_SHA256": "7c4601d5c779655bc2a69482995868aa501310f5de3d1a12470708202424bb28",
+  "lambda_diag": 0.1,
+  "Python_version": "3.11.4",
+  "Python_executable": "C:\\Users\\Harry\\.conda\\envs\\pytorch\\python.exe",
+  "PyTorch_version": "2.7.1+cu118",
+  "CUDA_version": "11.8",
+  "GPU": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "resource_preflight": {
+    "classification": "P6_PHASEA8MRN2R8D_H4_DUMMY_RESOURCE_FEASIBILITY_PASS",
+    "created": "2026-09-04T23:17:39.856084+08:00",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "field_pairs": 32768,
+    "diagonal_pairs": 1024,
+    "dtype_policy": "FP16 autocast forward; FP32 losses/backward",
+    "field_loss": 1.996006727218628,
+    "diagonal_loss": 1.0326348543167114,
+    "total_loss": 2.0992701053619385,
+    "field_gradient_norm": 0.15500003865954232,
+    "diagonal_gradient_norm": 2.2802650575530934,
+    "combined_gradient_norm": 0.29790695419863855,
+    "losses_finite": true,
+    "gradients_finite": true,
+    "seconds_per_combined_update": 0.02888589999929536,
+    "estimated_20000_update_hours_no_validation_or_IO": 0.16047722221830757,
+    "peak_allocated_VRAM_GiB": 0.4565591812133789,
+    "peak_reserved_VRAM_GiB": 0.55859375,
+    "peak_reserved_limit_GiB": 7.5,
+    "science_optimizer_constructed": false,
+    "optimizer_step_executed": false,
+    "science_training": false,
+    "gate": "PASS"
+  },
+  "science_optimizer_constructed_before_freeze": false,
+  "science_optimizer_updates_before_freeze": 0,
+  "gate": "PASS"
+}
